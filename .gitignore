@@ -7,14 +7,15 @@ Desktop.ini
 .vscode/
 .idea/
 
+# Python
+__pycache__/
+*.pyc
+
 # Secrets
 .env
 .env.*
 *.pem
 credentials.json
-
-# Optional: regenerate data.js with build_data.py instead of committing huge diffs
-# js/data.js
 
 # Share zip (regenerate from folder)
 ../grad-admissions-2027-share.zip
