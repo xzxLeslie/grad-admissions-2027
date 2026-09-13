@@ -3,6 +3,8 @@
 import json
 from pathlib import Path
 
+from faculty_catalog import attach_faculty, faculty_payload
+
 # US News Grad CS 2026 approximate ranks (ties collapsed to first mentioned band)
 # Combined with Brown CS Open Rankings 2026 US-only ordering for breadth to ~100.
 US_SCHOOLS = [
@@ -1166,9 +1168,9 @@ def sg_programs():
 def meta():
     return {
         "title": "2027 港美新 CS/EE 硕博申请导航",
-        "subtitle": "香港（含内地分校）· 美国约前100 · 新加坡主要院校 · PhD / 硕士分区",
+        "subtitle": "香港（含内地分校）· 美国约前100 · 新加坡主要院校 · PhD/硕士 · 教师名录与重点 AI 导师",
         "generated": "2026-09-13",
-        "disclaimer": "截止日期与奖学金以各校官方申请系统为准；本站离线可打开分享。美国排名按 US News Grad CS 2026 大致档位，并用 Brown CS Open Rankings 扩充至约100所。",
+        "disclaimer": "截止日期与奖学金以各校官方申请系统为准；本站离线可打开分享。美国排名按 US News Grad CS 2026 大致档位，并用 Brown CS Open Rankings 扩充至约100所。老师信息含官方 Faculty Directory + 重点 AI/CS 导师主页（非全系穷尽名单）。",
         "hkpfs": {
             "stipend": "HK$344,400/年",
             "travel": "HK$14,400/年",
@@ -1205,8 +1207,9 @@ def meta():
 
 
 def main():
-    programs = hk_programs() + sg_programs() + us_programs()
-    payload = {"meta": meta(), "programs": programs}
+    programs = [attach_faculty(p) for p in (hk_programs() + sg_programs() + us_programs())]
+    fac = faculty_payload()
+    payload = {"meta": meta(), "programs": programs, "faculty": fac}
     out = Path(__file__).parent / "js" / "data.js"
     out.write_text(
         "window.ADMISSIONS_DATA = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
@@ -1215,7 +1218,11 @@ def main():
     hk = sum(1 for p in programs if p["region"] == "HK")
     us = sum(1 for p in programs if p["region"] == "US")
     sg = sum(1 for p in programs if p["region"] == "SG")
-    print(f"Wrote {out} with {len(programs)} programs (HK={hk}, SG={sg}, US={us})")
+    with_dir = sum(1 for p in programs if p.get("facultyDir"))
+    print(
+        f"Wrote {out} with {len(programs)} programs (HK={hk}, SG={sg}, US={us}); "
+        f"facultyDirs={with_dir}; highlights={len(fac['highlights'])}"
+    )
 
 
 if __name__ == "__main__":

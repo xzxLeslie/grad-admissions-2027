@@ -1,9 +1,9 @@
 window.ADMISSIONS_DATA = {
   "meta": {
     "title": "2027 港美新 CS/EE 硕博申请导航",
-    "subtitle": "香港（含内地分校）· 美国约前100 · 新加坡主要院校 · PhD / 硕士分区",
+    "subtitle": "香港（含内地分校）· 美国约前100 · 新加坡主要院校 · PhD/硕士 · 教师名录与重点 AI 导师",
     "generated": "2026-09-13",
-    "disclaimer": "截止日期与奖学金以各校官方申请系统为准；本站离线可打开分享。美国排名按 US News Grad CS 2026 大致档位，并用 Brown CS Open Rankings 扩充至约100所。",
+    "disclaimer": "截止日期与奖学金以各校官方申请系统为准；本站离线可打开分享。美国排名按 US News Grad CS 2026 大致档位，并用 Brown CS Open Rankings 扩充至约100所。老师信息含官方 Faculty Directory + 重点 AI/CS 导师主页（非全系穷尽名单）。",
     "hkpfs": {
       "stipend": "HK$344,400/年",
       "travel": "HK$14,400/年",
@@ -70,7 +70,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Early recruitment rounds Apr/Aug 2026. HKPFS must use main round.",
       "applyUrl": "https://gradsch.hku.hk/prospective_students/application/how_to_apply",
       "infoUrl": "https://www.cs.hku.hk/programmes/research-based/how-to-apply-2027",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cs.hku.hk/people/academic-staff",
+      "facultyAiDir": "https://ai.hku.hk/people/academic-staff",
+      "facultyNote": "CDS：CS Division + AI & Data Science Division"
     },
     {
       "id": "hk-hku-cs-mphil",
@@ -103,7 +106,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Same timeline as PhD research degrees.",
       "applyUrl": "https://gradsch.hku.hk/prospective_students/application/how_to_apply",
       "infoUrl": "https://www.cs.hku.hk/programmes/research-based/mphil-phd-admission",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cs.hku.hk/people/academic-staff",
+      "facultyAiDir": "https://ai.hku.hk/people/academic-staff",
+      "facultyNote": "CDS：CS Division + AI & Data Science Division"
     },
     {
       "id": "hk-cuhk-cse-phd",
@@ -135,7 +141,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE R1 ends Oct 6 — earlier than RGC Dec 1.",
       "applyUrl": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
       "infoUrl": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyAiDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyNote": "CSE faculty page；可按 Artificial Intelligence 等标签筛选"
     },
     {
       "id": "hk-cuhk-cse-mphil",
@@ -165,7 +174,10 @@ window.ADMISSIONS_DATA = {
       "notes": "HKPFS PhD-only.",
       "applyUrl": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
       "infoUrl": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyAiDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyNote": "CSE faculty page；可按 Artificial Intelligence 等标签筛选"
     },
     {
       "id": "hk-cuhk-ie-phd",
@@ -199,7 +211,10 @@ window.ADMISSIONS_DATA = {
       "notes": "HKPFS: RGC noon + CUHK 23:59 on Dec 1.",
       "applyUrl": "https://www.gs.cuhk.edu.hk/admissions/application/online-application",
       "infoUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-information-engineering",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyAiDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyNote": "CSE faculty page；可按 Artificial Intelligence 等标签筛选"
     },
     {
       "id": "hk-cuhk-ele-phd",
@@ -228,7 +243,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Same HKPFS dual deadline.",
       "applyUrl": "https://www.gs.cuhk.edu.hk/admissions/application/online-application",
       "infoUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-electronic-engineering",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyAiDir": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "facultyNote": "CSE faculty page；可按 Artificial Intelligence 等标签筛选"
     },
     {
       "id": "hk-hkust-cse-phd",
@@ -259,7 +277,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Tuition ~HK$49,500. Rolling offers.",
       "applyUrl": "https://fytgs.hkust.edu.hk/apply",
       "infoUrl": "https://cse.hkust.edu.hk/pg/admissions/recruiting/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "facultyAiDir": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "facultyNote": "CSE faculty；多位标注 Artificial Intelligence / Vision"
     },
     {
       "id": "hk-hkust-cse-mphil",
@@ -288,7 +309,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Check FYTGS program closing dates.",
       "applyUrl": "https://fytgs.hkust.edu.hk/apply",
       "infoUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/mphil-phd-cse",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "facultyAiDir": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "facultyNote": "CSE faculty；多位标注 Artificial Intelligence / Vision"
     },
     {
       "id": "hk-cityu-ee-phd",
@@ -321,7 +345,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Regular RPG year-round; HKPFS hard Dec 1.",
       "applyUrl": "https://www.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
       "infoUrl": "https://www.ee.cityu.edu.hk/current_students/research_degree/application",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cs.cityu.edu.hk/people/academic-staff",
+      "facultyAiDir": "https://www.cs.cityu.edu.hk/research",
+      "facultyNote": "CS 学术人员 + 研究组"
     },
     {
       "id": "hk-polyu-eee-phd",
@@ -352,7 +379,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Do not wait until May if seeking HKPFS.",
       "applyUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/eee",
       "infoUrl": "https://www.polyu.edu.hk/gs/hkpfs/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+      "facultyAiDir": "https://www.polyu.edu.hk/comp/research/",
+      "facultyNote": "Computing 学术人员"
     },
     {
       "id": "hk-polyu-comp-phd",
@@ -381,7 +411,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Faculty of Computer and Mathematical Sciences offers Computing / DSAI RPG.",
       "applyUrl": "https://www.polyu.edu.hk/study/pg/research-postgraduate",
       "infoUrl": "https://www.polyu.edu.hk/study/pg/research-postgraduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+      "facultyAiDir": "https://www.polyu.edu.hk/comp/research/",
+      "facultyNote": "Computing 学术人员"
     },
     {
       "id": "hk-hkbu-cs-phd",
@@ -411,7 +444,10 @@ window.ADMISSIONS_DATA = {
       "notes": "HKPFS participating university.",
       "applyUrl": "https://gs.hkbu.edu.hk/",
       "infoUrl": "https://cerg1.ugc.edu.hk/hkpfs/institutions.html",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.comp.hkbu.edu.hk/v1/?page=people",
+      "facultyAiDir": "https://www.comp.hkbu.edu.hk/v1/?page=people",
+      "facultyNote": "COMP people"
     },
     {
       "id": "hk-hkustgz-phd",
@@ -441,7 +477,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Cross-disciplinary hubs. Separate from Clear Water Bay HKUST.",
       "applyUrl": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
       "infoUrl": "https://fytgs.hkust-gz.edu.cn/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "facultyAiDir": "https://hkust-gz.edu.cn/academics/four-hubs",
+      "facultyNote": "按 Hub/Thrust 浏览导师"
     },
     {
       "id": "hk-hkustgz-rbm",
@@ -473,7 +512,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Project-based interdisciplinary MPhil. Contact rbmadmit@hkust-gz.edu.cn",
       "applyUrl": "https://cft.hkust-gz.edu.cn/admission/",
       "infoUrl": "https://cft.hkust-gz.edu.cn/admission/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "facultyAiDir": "https://hkust-gz.edu.cn/academics/four-hubs",
+      "facultyNote": "按 Hub/Thrust 浏览导师"
     },
     {
       "id": "hk-cuhksz-cie-phd",
@@ -508,7 +550,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Degree awarded by CUHK. Not HKPFS (mainland campus).",
       "applyUrl": "https://pgapply.cuhk.edu.cn/",
       "infoUrl": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://sse.cuhk.edu.cn/en/faculty",
+      "facultyAiDir": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
+      "facultyNote": "SSE faculty；另见 SDS"
     },
     {
       "id": "hk-cuhksz-cie-mphil",
@@ -539,7 +584,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Normative MPhil 24 months.",
       "applyUrl": "https://pgapply.cuhk.edu.cn/",
       "infoUrl": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://sse.cuhk.edu.cn/en/faculty",
+      "facultyAiDir": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
+      "facultyNote": "SSE faculty；另见 SDS"
     },
     {
       "id": "hk-cuhksz-sds-phd",
@@ -570,7 +618,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Separate from SSE CIE programme.",
       "applyUrl": "https://pgapply.cuhk.edu.cn/",
       "infoUrl": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://sds.cuhk.edu.cn/en/teacher",
+      "facultyAiDir": "https://sds.cuhk.edu.cn/en/teacher",
+      "facultyNote": "School of Data Science faculty"
     },
     {
       "id": "hk-cuhksz-msc-cie",
@@ -600,7 +651,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Taught MSc — not research MPhil.",
       "applyUrl": "https://ssemsc.cuhk.edu.cn/en/node/98",
       "infoUrl": "https://ssemsc.cuhk.edu.cn/en/node/98",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://sse.cuhk.edu.cn/en/faculty",
+      "facultyAiDir": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
+      "facultyNote": "SSE faculty；另见 SDS"
     },
     {
       "id": "hk-cityudg-msc-cs",
@@ -630,7 +684,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Also MSc AI / MSc EEE. New campus; PhD pathways developing (3+1+N etc.).",
       "applyUrl": "https://pga.cityu-dg.edu.cn/en/computer-science",
       "infoUrl": "https://pga.cityu-dg.edu.cn/en/home",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.cityu-dg.edu.cn/en/home",
+      "facultyAiDir": "https://pga.cityu-dg.edu.cn/en/home",
+      "facultyNote": "新校区；师资名单以官网更新为准"
     },
     {
       "id": "hk-cityudg-msc-eee",
@@ -659,7 +716,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Industrial/research schemes mentioned on admissions site.",
       "applyUrl": "https://pga.cityu-dg.edu.cn/en/home",
       "infoUrl": "https://www.cityu-dg.edu.cn/en/home",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cityu-dg.edu.cn/en/home",
+      "facultyAiDir": "https://pga.cityu-dg.edu.cn/en/home",
+      "facultyNote": "新校区；师资名单以官网更新为准"
     },
     {
       "id": "hk-bnbu-cs-phd",
@@ -688,7 +748,10 @@ window.ADMISSIONS_DATA = {
       "notes": "English-taught research degrees. Formerly UIC branding.",
       "applyUrl": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology.htm",
       "infoUrl": "https://gs.bnbu.edu.cn/admission/Application_Procedure/Research_Postgraduate_Programme.htm",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology/SUPERVISORS.htm",
+      "facultyAiDir": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology.htm",
+      "facultyNote": "CS&T 导师名单"
     },
     {
       "id": "hk-bnbu-cs-mphil",
@@ -717,7 +780,10 @@ window.ADMISSIONS_DATA = {
       "notes": "May transfer to PhD after assessment.",
       "applyUrl": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology.htm",
       "infoUrl": "https://gs.bnbu.edu.cn/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology/SUPERVISORS.htm",
+      "facultyAiDir": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology.htm",
+      "facultyNote": "CS&T 导师名单"
     },
     {
       "id": "sg-singa-phd",
@@ -752,7 +818,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Top route for international PhD in Singapore labs. Portal: sms-applicant-app.a-star.edu.sg",
       "applyUrl": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
       "infoUrl": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+      "facultyAiDir": "https://www.a-star.edu.sg/Research",
+      "facultyNote": "通过 SINGA 选 A*STAR / 大学导师"
     },
     {
       "id": "sg-nus-cs-phd",
@@ -791,7 +860,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Contact phd-info@comp.nus.edu.sg. Outcome ~3 months after deadline.",
       "applyUrl": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/",
       "infoUrl": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/scholarships/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.comp.nus.edu.sg/about/faculty/",
+      "facultyAiDir": "https://www.comp.nus.edu.sg/cs/research/ai/people/",
+      "facultyNote": "SoC faculty + AI research people；另见 NUS AI Lab"
     },
     {
       "id": "sg-nus-ece-phd",
@@ -826,7 +898,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Apply via NUS Graduate Admission System to ECE programmes.",
       "applyUrl": "https://cde.nus.edu.sg/ece/graduate/phd/",
       "infoUrl": "https://cde.nus.edu.sg/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.comp.nus.edu.sg/about/faculty/",
+      "facultyAiDir": "https://www.comp.nus.edu.sg/cs/research/ai/people/",
+      "facultyNote": "SoC faculty + AI research people；另见 NUS AI Lab"
     },
     {
       "id": "sg-nus-mcomp",
@@ -860,7 +935,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Tracks: Specialisations / General / AI. FT ~18 mo; PT available for some. Outcomes by May/June.",
       "applyUrl": "https://www.comp.nus.edu.sg/graduate/",
       "infoUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.comp.nus.edu.sg/about/faculty/",
+      "facultyAiDir": "https://www.comp.nus.edu.sg/cs/research/ai/people/",
+      "facultyNote": "SoC faculty + AI research people；另见 NUS AI Lab"
     },
     {
       "id": "sg-nus-msc-dft",
@@ -889,7 +967,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Contact msc-dft@nus.edu.sg",
       "applyUrl": "https://www.comp.nus.edu.sg/graduate/",
       "infoUrl": "https://www.comp.nus.edu.sg/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.comp.nus.edu.sg/about/faculty/",
+      "facultyAiDir": "https://www.comp.nus.edu.sg/cs/research/ai/people/",
+      "facultyNote": "SoC faculty + AI research people；另见 NUS AI Lab"
     },
     {
       "id": "sg-ntu-ccds-phd",
@@ -926,7 +1007,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Also MEng by research. CCDS PhD page: ntu.edu.sg CCDS.",
       "applyUrl": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
       "infoUrl": "https://www.ntu.edu.sg/education/graduate-programme/ccds-phd-computing-datascience",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.ntu.edu.sg/computing/our-faculty/faculty-at-ccds",
+      "facultyAiDir": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty",
+      "facultyNote": "CCDS 全员目录 + AI Faculty 专题"
     },
     {
       "id": "sg-ntu-eee-phd",
@@ -956,7 +1040,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong for circuits, communications, power, robotics, etc.",
       "applyUrl": "https://www.ntu.edu.sg/eee/admissions/graduate-programmes",
       "infoUrl": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.ntu.edu.sg/computing/our-faculty/faculty-at-ccds",
+      "facultyAiDir": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty",
+      "facultyNote": "CCDS 全员目录 + AI Faculty 专题"
     },
     {
       "id": "sg-ntu-msc-ai",
@@ -987,7 +1074,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Also MSc Cyber Security / Data Science same fee band. ccdsmscprog@ntu.edu.sg",
       "applyUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence",
       "infoUrl": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.ntu.edu.sg/computing/our-faculty/faculty-at-ccds",
+      "facultyAiDir": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty",
+      "facultyNote": "CCDS 全员目录 + AI Faculty 专题"
     },
     {
       "id": "sg-ntu-msc-ds",
@@ -1016,7 +1106,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Self-financed coursework master's.",
       "applyUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
       "infoUrl": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.ntu.edu.sg/computing/our-faculty/faculty-at-ccds",
+      "facultyAiDir": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty",
+      "facultyNote": "CCDS 全员目录 + AI Faculty 专题"
     },
     {
       "id": "sg-smu-scis-phd",
@@ -1054,7 +1147,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Early applicants may get early offers. scis_phd@smu.edu.sg",
       "applyUrl": "https://computing.smu.edu.sg/phd/online-application",
       "infoUrl": "https://computing.smu.edu.sg/phd",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://computing.smu.edu.sg/faculty",
+      "facultyAiDir": "https://computing.smu.edu.sg/faculty",
+      "facultyNote": "SCIS faculty"
     },
     {
       "id": "sg-smu-mitb",
@@ -1083,7 +1179,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Popular industry-oriented computing master's in Singapore.",
       "applyUrl": "https://computing.smu.edu.sg/master",
       "infoUrl": "https://computing.smu.edu.sg/master",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://computing.smu.edu.sg/faculty",
+      "facultyAiDir": "https://computing.smu.edu.sg/faculty",
+      "facultyNote": "SCIS faculty"
     },
     {
       "id": "sg-sutd-phd",
@@ -1116,7 +1215,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Also EngD (SC/SPR only) and SUTD–NUS Joint PhD — same Jan 2027 deadline band.",
       "applyUrl": "https://www.sutd.edu.sg/admissions/graduate/phd/",
       "infoUrl": "https://www.sutd.edu.sg/admissions/graduate/phd/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.sutd.edu.sg/education/faculty/",
+      "facultyAiDir": "https://istd.sutd.edu.sg/people/faculty",
+      "facultyNote": "ISTD 等 pillar faculty"
     },
     {
       "id": "sg-sutd-meng",
@@ -1146,7 +1248,10 @@ window.ADMISSIONS_DATA = {
       "notes": "FT 12–18 months; PT 24–36 months.",
       "applyUrl": "https://www.sutd.edu.sg/programme-listing/master-of-engineering-research/application/",
       "infoUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.sutd.edu.sg/education/faculty/",
+      "facultyAiDir": "https://istd.sutd.edu.sg/people/faculty",
+      "facultyNote": "ISTD 等 pillar faculty"
     },
     {
       "id": "sg-sutd-msc-ai",
@@ -1175,7 +1280,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Multiple MSc Tech & Design specialisations — verify each deadline.",
       "applyUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/",
       "infoUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/",
-      "detailLevel": "verified"
+      "detailLevel": "verified",
+      "facultyDir": "https://www.sutd.edu.sg/education/faculty/",
+      "facultyAiDir": "https://istd.sutd.edu.sg/people/faculty",
+      "facultyNote": "ISTD 等 pillar faculty"
     },
     {
       "id": "sg-sit-phd",
@@ -1204,7 +1312,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Practice-oriented university; CS/engineering applied research growing.",
       "applyUrl": "https://www.singaporetech.edu.sg/graduate",
       "infoUrl": "https://www.singaporetech.edu.sg/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.singaporetech.edu.sg/about/our-people",
+      "facultyAiDir": "https://www.singaporetech.edu.sg/graduate",
+      "facultyNote": "SIT people / graduate supervisors"
     },
     {
       "id": "sg-sit-master",
@@ -1233,7 +1344,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Industry-aligned master's; verify 2027 intakes on SIT site.",
       "applyUrl": "https://www.singaporetech.edu.sg/graduate",
       "infoUrl": "https://www.singaporetech.edu.sg/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.singaporetech.edu.sg/about/our-people",
+      "facultyAiDir": "https://www.singaporetech.edu.sg/graduate",
+      "facultyNote": "SIT people / graduate supervisors"
     },
     {
       "id": "us-cmu-phd",
@@ -1272,7 +1386,10 @@ window.ADMISSIONS_DATA = {
       "notes": "SCS opens 2026-09-09; early fee deadline 2026-11-18. PhD full funding. MSCS typically no dept aid.",
       "applyUrl": "https://www.csd.cs.cmu.edu/academics/doctoral/admissions",
       "infoUrl": "https://www.csd.cs.cmu.edu/academics/doctoral/admissions",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://csd.cs.cmu.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.cmu.edu/research/ai",
+      "facultyNote": "CSD faculty；SCS 还有 ML/RI/LTI 等系"
     },
     {
       "id": "us-cmu-ms",
@@ -1308,7 +1425,10 @@ window.ADMISSIONS_DATA = {
       "notes": "SCS opens 2026-09-09; early fee deadline 2026-11-18. PhD full funding. MSCS typically no dept aid. MS funding rare vs PhD.",
       "applyUrl": "https://csd.cmu.edu/academics/masters/admissions",
       "infoUrl": "https://csd.cmu.edu/academics/masters/admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://csd.cs.cmu.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.cmu.edu/research/ai",
+      "facultyNote": "CSD faculty；SCS 还有 ML/RI/LTI 等系"
     },
     {
       "id": "us-mit-phd",
@@ -1347,7 +1467,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS PhD fully funded. MEng MIT undergrads only; no terminal SM.",
       "applyUrl": "https://oge.mit.edu/programs/electrical-engineering-and-computer-science/",
       "infoUrl": "https://oge.mit.edu/programs/electrical-engineering-and-computer-science/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.eecs.mit.edu/role/faculty/",
+      "facultyAiDir": "https://www.eecs.mit.edu/role/faculty-aid/",
+      "facultyNote": "EECS faculty；另有 Faculty AI+D / CS / EE"
     },
     {
       "id": "us-mit-ms",
@@ -1383,7 +1506,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS PhD fully funded. MEng MIT undergrads only; no terminal SM. MS funding rare vs PhD.",
       "applyUrl": "https://oge.mit.edu/programs/electrical-engineering-and-computer-science/",
       "infoUrl": "https://oge.mit.edu/programs/electrical-engineering-and-computer-science/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.eecs.mit.edu/role/faculty/",
+      "facultyAiDir": "https://www.eecs.mit.edu/role/faculty-aid/",
+      "facultyNote": "EECS faculty；另有 Faculty AI+D / CS / EE"
     },
     {
       "id": "us-stanford-phd",
@@ -1422,7 +1548,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD/MS Dec 8 2026. EE PhD Dec 1. KHS Oct 6 2026. MS or PhD exclusive.",
       "applyUrl": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
       "infoUrl": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.stanford.edu/people/faculty",
+      "facultyAiDir": "https://hai.stanford.edu/people",
+      "facultyNote": "CS faculty + Stanford HAI"
     },
     {
       "id": "us-stanford-ms",
@@ -1458,7 +1587,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD/MS Dec 8 2026. EE PhD Dec 1. KHS Oct 6 2026. MS or PhD exclusive. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
       "infoUrl": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.stanford.edu/people/faculty",
+      "facultyAiDir": "https://hai.stanford.edu/people",
+      "facultyNote": "CS faculty + Stanford HAI"
     },
     {
       "id": "us-uc-berkeley-phd",
@@ -1497,7 +1629,10 @@ window.ADMISSIONS_DATA = {
       "notes": "GRE not accepted. MEng Jan 6 2027. MS-only rare.",
       "applyUrl": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
       "infoUrl": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www2.eecs.berkeley.edu/Faculty/Lists/list.html",
+      "facultyAiDir": "https://www2.eecs.berkeley.edu/Research/Areas/AI/",
+      "facultyNote": "EECS faculty by research area"
     },
     {
       "id": "us-uc-berkeley-ms",
@@ -1533,7 +1668,10 @@ window.ADMISSIONS_DATA = {
       "notes": "GRE not accepted. MEng Jan 6 2027. MS-only rare. MS funding rare vs PhD.",
       "applyUrl": "https://grad.berkeley.edu/admissions/our-programs/",
       "infoUrl": "https://grad.berkeley.edu/admissions/our-programs/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www2.eecs.berkeley.edu/Faculty/Lists/list.html",
+      "facultyAiDir": "https://www2.eecs.berkeley.edu/Research/Areas/AI/",
+      "facultyNote": "EECS faculty by research area"
     },
     {
       "id": "us-uiuc-phd",
@@ -1572,7 +1710,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD/MS Dec 1 CT. MCS Urbana Fall May 1.",
       "applyUrl": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
       "infoUrl": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://siebelschool.illinois.edu/about/people/faculty",
+      "facultyAiDir": "https://siebelschool.illinois.edu/research/areas",
+      "facultyNote": "Siebel School faculty"
     },
     {
       "id": "us-uiuc-ms",
@@ -1608,7 +1749,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD/MS Dec 1 CT. MCS Urbana Fall May 1. MS funding rare vs PhD.",
       "applyUrl": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
       "infoUrl": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://siebelschool.illinois.edu/about/people/faculty",
+      "facultyAiDir": "https://siebelschool.illinois.edu/research/areas",
+      "facultyNote": "Siebel School faculty"
     },
     {
       "id": "us-princeton-phd",
@@ -1647,7 +1791,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS & ECE PhD Dec 15. ECE M.Eng Dec 21. Opens Sep 15 2026.",
       "applyUrl": "https://gradschool.princeton.edu/admission-onboarding/prepare/deadlines-and-fees",
       "infoUrl": "https://gradschool.princeton.edu/admission-onboarding/prepare/deadlines-and-fees",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.princeton.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.princeton.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-princeton-ms",
@@ -1683,7 +1830,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS & ECE PhD Dec 15. ECE M.Eng Dec 21. Opens Sep 15 2026. MS funding rare vs PhD.",
       "applyUrl": "https://gradschool.princeton.edu/admission-onboarding/prepare/deadlines-and-fees",
       "infoUrl": "https://gradschool.princeton.edu/admission-onboarding/prepare/deadlines-and-fees",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.princeton.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.princeton.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-cornell-phd",
@@ -1722,7 +1872,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD fully funded. IS earlier Dec 1 per LEAP.",
       "applyUrl": "https://www.cs.cornell.edu/phd-computer-science/apply",
       "infoUrl": "https://www.cs.cornell.edu/phd-computer-science/apply",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.cornell.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.cornell.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-cornell-ms",
@@ -1758,7 +1911,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD fully funded. IS earlier Dec 1 per LEAP. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.cornell.edu/",
       "infoUrl": "https://www.cs.cornell.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.cornell.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.cornell.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-georgia-tech-phd",
@@ -1797,7 +1953,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD typically GTA/GRA. MS funding limited.",
       "applyUrl": "https://www.cc.gatech.edu/phd-cs-admissions-requirements",
       "infoUrl": "https://www.cc.gatech.edu/phd-cs-admissions-requirements",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cc.gatech.edu/people/faculty",
+      "facultyAiDir": "https://www.cc.gatech.edu/research",
+      "facultyNote": "College of Computing faculty"
     },
     {
       "id": "us-georgia-tech-ms",
@@ -1833,7 +1992,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD typically GTA/GRA. MS funding limited. MS funding rare vs PhD.",
       "applyUrl": "https://ece.gatech.edu/future-students/graduate-admissions",
       "infoUrl": "https://ece.gatech.edu/future-students/graduate-admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cc.gatech.edu/people/faculty",
+      "facultyAiDir": "https://www.cc.gatech.edu/research",
+      "facultyNote": "College of Computing faculty"
     },
     {
       "id": "us-uw-phd",
@@ -1872,7 +2034,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong systems/AI. Verify portal when open.",
       "applyUrl": "https://www.cs.washington.edu/academics/phd",
       "infoUrl": "https://www.cs.washington.edu/academics/phd",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.washington.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.washington.edu/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-uw-ms",
@@ -1908,7 +2073,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong systems/AI. Verify portal when open. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.washington.edu/academics/ms",
       "infoUrl": "https://www.cs.washington.edu/academics/ms",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.washington.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.washington.edu/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-ut-austin-phd",
@@ -1947,7 +2115,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 15 band (LEAP).",
       "applyUrl": "https://www.cs.utexas.edu/graduate/prospective-students",
       "infoUrl": "https://www.cs.utexas.edu/graduate/prospective-students",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.utexas.edu/people/faculty-researchers",
+      "facultyAiDir": "https://www.cs.utexas.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ut-austin-ms",
@@ -1983,7 +2154,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 15 band (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.utexas.edu/graduate/prospective-students",
       "infoUrl": "https://www.cs.utexas.edu/graduate/prospective-students",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.utexas.edu/people/faculty-researchers",
+      "facultyAiDir": "https://www.cs.utexas.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-caltech-phd",
@@ -2022,7 +2196,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EE GRE not required. MSEE rarely funded.",
       "applyUrl": "https://www.gradoffice.caltech.edu/admissions",
       "infoUrl": "https://www.gradoffice.caltech.edu/admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cms.caltech.edu/people",
+      "facultyAiDir": "https://www.cms.caltech.edu/research",
+      "facultyNote": "CMS faculty"
     },
     {
       "id": "us-caltech-ms",
@@ -2058,7 +2235,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EE GRE not required. MSEE rarely funded. MS funding rare vs PhD.",
       "applyUrl": "https://www.gradoffice.caltech.edu/admissions",
       "infoUrl": "https://www.gradoffice.caltech.edu/admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cms.caltech.edu/people",
+      "facultyAiDir": "https://www.cms.caltech.edu/research",
+      "facultyNote": "CMS faculty"
     },
     {
       "id": "us-harvard-phd",
@@ -2097,7 +2277,10 @@ window.ADMISSIONS_DATA = {
       "notes": "SEAS CS PhD; confirm exact date on Grad School.",
       "applyUrl": "https://www.seas.harvard.edu/computer-science/graduate-program",
       "infoUrl": "https://www.seas.harvard.edu/computer-science/graduate-program",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.seas.harvard.edu/computer-science/people",
+      "facultyAiDir": "https://www.seas.harvard.edu/computer-science/research",
+      "facultyNote": "SEAS CS people"
     },
     {
       "id": "us-harvard-ms",
@@ -2133,7 +2316,10 @@ window.ADMISSIONS_DATA = {
       "notes": "SEAS CS PhD; confirm exact date on Grad School. MS funding rare vs PhD.",
       "applyUrl": "https://www.seas.harvard.edu/",
       "infoUrl": "https://www.seas.harvard.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.seas.harvard.edu/computer-science/people",
+      "facultyAiDir": "https://www.seas.harvard.edu/computer-science/research",
+      "facultyNote": "SEAS CS people"
     },
     {
       "id": "us-ucsd-phd",
@@ -2172,7 +2358,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE PhD typically Dec; MS separate.",
       "applyUrl": "https://cse.ucsd.edu/graduate/admissions",
       "infoUrl": "https://cse.ucsd.edu/graduate/admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.ucsd.edu/people/faculty",
+      "facultyAiDir": "https://cse.ucsd.edu/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-ucsd-ms",
@@ -2208,7 +2397,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE PhD typically Dec; MS separate. MS funding rare vs PhD.",
       "applyUrl": "https://cse.ucsd.edu/graduate/admissions",
       "infoUrl": "https://cse.ucsd.edu/graduate/admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.ucsd.edu/people/faculty",
+      "facultyAiDir": "https://cse.ucsd.edu/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-umich-phd",
@@ -2247,7 +2439,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE & ECE both strong. PhD funded.",
       "applyUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/",
       "infoUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.engin.umich.edu/people/faculty/",
+      "facultyAiDir": "https://cse.engin.umich.edu/research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-umich-ms",
@@ -2283,7 +2478,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE & ECE both strong. PhD funded. MS funding rare vs PhD.",
       "applyUrl": "https://cse.engin.umich.edu/academics/graduate/",
       "infoUrl": "https://cse.engin.umich.edu/academics/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.engin.umich.edu/people/faculty/",
+      "facultyAiDir": "https://cse.engin.umich.edu/research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-ucla-phd",
@@ -2322,7 +2520,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 15 (LEAP).",
       "applyUrl": "https://www.cs.ucla.edu/graduate-admissions/",
       "infoUrl": "https://www.cs.ucla.edu/graduate-admissions/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.ucla.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.ucla.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ucla-ms",
@@ -2358,7 +2559,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 15 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.ucla.edu/graduate-admissions/",
       "infoUrl": "https://www.cs.ucla.edu/graduate-admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.ucla.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.ucla.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-columbia-phd",
@@ -2397,7 +2601,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded; MS mostly self-pay.",
       "applyUrl": "https://www.cs.columbia.edu/education/admissions/",
       "infoUrl": "https://www.cs.columbia.edu/education/admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.columbia.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.columbia.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-columbia-ms",
@@ -2433,7 +2640,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded; MS mostly self-pay. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.columbia.edu/education/ms/",
       "infoUrl": "https://www.cs.columbia.edu/education/ms/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.columbia.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.columbia.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-jhu-phd",
@@ -2472,7 +2682,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE options.",
       "applyUrl": "https://www.cs.jhu.edu/academic-programs/graduate-studies/graduate-admissions/",
       "infoUrl": "https://www.cs.jhu.edu/academic-programs/graduate-studies/graduate-admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.jhu.edu/faculty/",
+      "facultyAiDir": "https://www.cs.jhu.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-jhu-ms",
@@ -2508,7 +2721,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE options. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.jhu.edu/",
       "infoUrl": "https://www.cs.jhu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.jhu.edu/faculty/",
+      "facultyAiDir": "https://www.cs.jhu.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-purdue-phd",
@@ -2547,7 +2763,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 1 (LEAP). Strong ECE.",
       "applyUrl": "https://www.cs.purdue.edu/graduate/index.html",
       "infoUrl": "https://www.cs.purdue.edu/graduate/index.html",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "facultyAiDir": "https://www.cs.purdue.edu/research/index.html",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-purdue-ms",
@@ -2583,7 +2802,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 1 (LEAP). Strong ECE. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.purdue.edu/ECE",
       "infoUrl": "https://engineering.purdue.edu/ECE",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.purdue.edu/people/faculty/index.html",
+      "facultyAiDir": "https://www.cs.purdue.edu/research/index.html",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-umd-phd",
@@ -2622,7 +2844,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 4 (LEAP).",
       "applyUrl": "https://www.cs.umd.edu/grad/admissions",
       "infoUrl": "https://www.cs.umd.edu/grad/admissions",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.umd.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.umd.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-umd-ms",
@@ -2658,7 +2883,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 4 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.umd.edu/grad",
       "infoUrl": "https://www.cs.umd.edu/grad",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.umd.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.umd.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-upenn-phd",
@@ -2697,7 +2925,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CIS PhD Dec 15.",
       "applyUrl": "https://www.cis.upenn.edu/graduate/admissions/",
       "infoUrl": "https://www.cis.upenn.edu/graduate/admissions/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cis.upenn.edu/people/faculty/",
+      "facultyAiDir": "https://www.cis.upenn.edu/research/",
+      "facultyNote": "CIS faculty"
     },
     {
       "id": "us-upenn-ms",
@@ -2733,7 +2964,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CIS PhD Dec 15. MS funding rare vs PhD.",
       "applyUrl": "https://www.cis.upenn.edu/graduate/",
       "infoUrl": "https://www.cis.upenn.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cis.upenn.edu/people/faculty/",
+      "facultyAiDir": "https://www.cis.upenn.edu/research/",
+      "facultyNote": "CIS faculty"
     },
     {
       "id": "us-usc-phd",
@@ -2772,7 +3006,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded; large MS population self-pay.",
       "applyUrl": "https://www.cs.usc.edu/academic-programs/phd/",
       "infoUrl": "https://www.cs.usc.edu/academic-programs/phd/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.usc.edu/faculty-staff/",
+      "facultyAiDir": "https://www.cs.usc.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-usc-ms",
@@ -2808,7 +3045,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded; large MS population self-pay. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.usc.edu/academic-programs/masters/",
       "infoUrl": "https://www.cs.usc.edu/academic-programs/masters/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.usc.edu/faculty-staff/",
+      "facultyAiDir": "https://www.cs.usc.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uw-madison-phd",
@@ -2847,7 +3087,10 @@ window.ADMISSIONS_DATA = {
       "notes": "MS/PhD Dec 15; PMP/MSDE Feb 15.",
       "applyUrl": "https://www.cs.wisc.edu/grad/programs/admissions/",
       "infoUrl": "https://www.cs.wisc.edu/grad/programs/admissions/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.cs.wisc.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.wisc.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uw-madison-ms",
@@ -2883,7 +3126,10 @@ window.ADMISSIONS_DATA = {
       "notes": "MS/PhD Dec 15; PMP/MSDE Feb 15. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.wisc.edu/grad/programs/admissions/",
       "infoUrl": "https://www.cs.wisc.edu/grad/programs/admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.wisc.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.wisc.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-yale-phd",
@@ -2922,7 +3168,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 15.",
       "applyUrl": "https://cpsc.yale.edu/academics/graduate-program",
       "infoUrl": "https://cpsc.yale.edu/academics/graduate-program",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://cpsc.yale.edu/people/faculty",
+      "facultyAiDir": "https://cpsc.yale.edu/research",
+      "facultyNote": "CPSC faculty"
     },
     {
       "id": "us-yale-ms",
@@ -2958,7 +3207,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD Dec 15. MS funding rare vs PhD.",
       "applyUrl": "https://cpsc.yale.edu/",
       "infoUrl": "https://cpsc.yale.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cpsc.yale.edu/people/faculty",
+      "facultyAiDir": "https://cpsc.yale.edu/research",
+      "facultyNote": "CPSC faculty"
     },
     {
       "id": "us-duke-phd",
@@ -2997,7 +3249,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm portal; typically mid-Dec.",
       "applyUrl": "https://www.cs.duke.edu/graduate/phd",
       "infoUrl": "https://www.cs.duke.edu/graduate/phd",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.duke.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.duke.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-duke-ms",
@@ -3033,7 +3288,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm portal; typically mid-Dec. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.duke.edu/graduate",
       "infoUrl": "https://www.cs.duke.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.duke.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.duke.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-brown-phd",
@@ -3072,7 +3330,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded.",
       "applyUrl": "https://cs.brown.edu/degrees/doctoral/",
       "infoUrl": "https://cs.brown.edu/degrees/doctoral/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.brown.edu/people/faculty/",
+      "facultyAiDir": "https://cs.brown.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-brown-ms",
@@ -3108,7 +3369,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded. MS funding rare vs PhD.",
       "applyUrl": "https://cs.brown.edu/degrees/masters/",
       "infoUrl": "https://cs.brown.edu/degrees/masters/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.brown.edu/people/faculty/",
+      "facultyAiDir": "https://cs.brown.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uchicago-phd",
@@ -3147,7 +3411,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Growing CS department.",
       "applyUrl": "https://cs.uchicago.edu/academics/graduate/",
       "infoUrl": "https://cs.uchicago.edu/academics/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.uchicago.edu/people/faculty/",
+      "facultyAiDir": "https://cs.uchicago.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uchicago-ms",
@@ -3183,7 +3450,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Growing CS department. MS funding rare vs PhD.",
       "applyUrl": "https://cs.uchicago.edu/",
       "infoUrl": "https://cs.uchicago.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.uchicago.edu/people/faculty/",
+      "facultyAiDir": "https://cs.uchicago.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uci-phd",
@@ -3222,7 +3492,10 @@ window.ADMISSIONS_DATA = {
       "notes": "ICS graduate programs.",
       "applyUrl": "https://www.cs.uci.edu/graduate/",
       "infoUrl": "https://www.cs.uci.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.ics.uci.edu/faculty/",
+      "facultyAiDir": "https://www.ics.uci.edu/research/",
+      "facultyNote": "ICS faculty"
     },
     {
       "id": "us-uci-ms",
@@ -3258,7 +3531,10 @@ window.ADMISSIONS_DATA = {
       "notes": "ICS graduate programs. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.uci.edu/graduate/",
       "infoUrl": "https://www.cs.uci.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.ics.uci.edu/faculty/",
+      "facultyAiDir": "https://www.ics.uci.edu/research/",
+      "facultyNote": "ICS faculty"
     },
     {
       "id": "us-virginia-tech-phd",
@@ -3297,7 +3573,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://cs.vt.edu/Graduate.html",
       "infoUrl": "https://cs.vt.edu/Graduate.html",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.vt.edu/People/Faculty.html",
+      "facultyAiDir": "https://cs.vt.edu/Research.html",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-virginia-tech-ms",
@@ -3333,7 +3612,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://ece.vt.edu/",
       "infoUrl": "https://ece.vt.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.vt.edu/People/Faculty.html",
+      "facultyAiDir": "https://cs.vt.edu/Research.html",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-nyu-phd",
@@ -3372,7 +3654,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Courant CS; Tandon separate.",
       "applyUrl": "https://cs.nyu.edu/home/phd/",
       "infoUrl": "https://cs.nyu.edu/home/phd/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.nyu.edu/home/people/faculty.html",
+      "facultyAiDir": "https://cs.nyu.edu/home/research/",
+      "facultyNote": "Courant CS faculty"
     },
     {
       "id": "us-nyu-ms",
@@ -3408,7 +3693,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Courant CS; Tandon separate. MS funding rare vs PhD.",
       "applyUrl": "https://cs.nyu.edu/home/master/",
       "infoUrl": "https://cs.nyu.edu/home/master/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.nyu.edu/home/people/faculty.html",
+      "facultyAiDir": "https://cs.nyu.edu/home/research/",
+      "facultyNote": "Courant CS faculty"
     },
     {
       "id": "us-northwestern-phd",
@@ -3447,7 +3735,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm exact date.",
       "applyUrl": "https://www.mccormick.northwestern.edu/computer-science/graduate/",
       "infoUrl": "https://www.mccormick.northwestern.edu/computer-science/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.mccormick.northwestern.edu/computer-science/people/faculty/",
+      "facultyAiDir": "https://www.mccormick.northwestern.edu/computer-science/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-northwestern-ms",
@@ -3483,7 +3774,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm exact date. MS funding rare vs PhD.",
       "applyUrl": "https://www.mccormick.northwestern.edu/computer-science/",
       "infoUrl": "https://www.mccormick.northwestern.edu/computer-science/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.mccormick.northwestern.edu/computer-science/people/faculty/",
+      "facultyAiDir": "https://www.mccormick.northwestern.edu/computer-science/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-rice-phd",
@@ -3522,7 +3816,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded.",
       "applyUrl": "https://csweb.rice.edu/academics/graduate-program",
       "infoUrl": "https://csweb.rice.edu/academics/graduate-program",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://csweb.rice.edu/people/faculty",
+      "facultyAiDir": "https://csweb.rice.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-rice-ms",
@@ -3558,7 +3855,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD funded. MS funding rare vs PhD.",
       "applyUrl": "https://csweb.rice.edu/",
       "infoUrl": "https://csweb.rice.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://csweb.rice.edu/people/faculty",
+      "facultyAiDir": "https://csweb.rice.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-cu-boulder-phd",
@@ -3597,7 +3897,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP).",
       "applyUrl": "https://www.colorado.edu/cs/graduate-programs",
       "infoUrl": "https://www.colorado.edu/cs/graduate-programs",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.colorado.edu/cs/people/faculty",
+      "facultyAiDir": "https://www.colorado.edu/cs/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-cu-boulder-ms",
@@ -3633,7 +3936,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://www.colorado.edu/cs/",
       "infoUrl": "https://www.colorado.edu/cs/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.colorado.edu/cs/people/faculty",
+      "facultyAiDir": "https://www.colorado.edu/cs/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-unc-phd",
@@ -3672,7 +3978,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Later deadline Mar 9 2027 (LEAP)—verify.",
       "applyUrl": "https://cs.unc.edu/graduate/admissions/",
       "infoUrl": "https://cs.unc.edu/graduate/admissions/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://cs.unc.edu/people/faculty/",
+      "facultyAiDir": "https://cs.unc.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-unc-ms",
@@ -3708,7 +4017,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Later deadline Mar 9 2027 (LEAP)—verify. MS funding rare vs PhD.",
       "applyUrl": "https://cs.unc.edu/graduate/",
       "infoUrl": "https://cs.unc.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.unc.edu/people/faculty/",
+      "facultyAiDir": "https://cs.unc.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-northeastern-phd",
@@ -3747,7 +4059,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Large co-op MS programs.",
       "applyUrl": "https://www.khoury.northeastern.edu/programs/phd-in-computer-science/",
       "infoUrl": "https://www.khoury.northeastern.edu/programs/phd-in-computer-science/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.khoury.northeastern.edu/people/faculty/",
+      "facultyAiDir": "https://www.khoury.northeastern.edu/research/",
+      "facultyNote": "Khoury faculty"
     },
     {
       "id": "us-northeastern-ms",
@@ -3783,7 +4098,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Large co-op MS programs. MS funding rare vs PhD.",
       "applyUrl": "https://www.khoury.northeastern.edu/",
       "infoUrl": "https://www.khoury.northeastern.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.khoury.northeastern.edu/people/faculty/",
+      "facultyAiDir": "https://www.khoury.northeastern.edu/research/",
+      "facultyNote": "Khoury faculty"
     },
     {
       "id": "us-uc-davis-phd",
@@ -3822,7 +4140,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP).",
       "applyUrl": "https://cs.ucdavis.edu/graduate",
       "infoUrl": "https://cs.ucdavis.edu/graduate",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://cs.ucdavis.edu/people/faculty",
+      "facultyAiDir": "https://cs.ucdavis.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uc-davis-ms",
@@ -3858,7 +4179,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://cs.ucdavis.edu/graduate",
       "infoUrl": "https://cs.ucdavis.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.ucdavis.edu/people/faculty",
+      "facultyAiDir": "https://cs.ucdavis.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ucsb-phd",
@@ -3897,7 +4221,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong systems/security.",
       "applyUrl": "https://www.cs.ucsb.edu/education/graduate/admissions",
       "infoUrl": "https://www.cs.ucsb.edu/education/graduate/admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.ucsb.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.ucsb.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ucsb-ms",
@@ -3933,7 +4260,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong systems/security. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.ucsb.edu/",
       "infoUrl": "https://www.cs.ucsb.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.ucsb.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.ucsb.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-umass-phd",
@@ -3972,7 +4302,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CICS; strong NLP/IR historically.",
       "applyUrl": "https://www.cics.umass.edu/admissions/graduate-admissions",
       "infoUrl": "https://www.cics.umass.edu/admissions/graduate-admissions",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cics.umass.edu/people/faculty",
+      "facultyAiDir": "https://www.cics.umass.edu/research",
+      "facultyNote": "CICS faculty"
     },
     {
       "id": "us-umass-ms",
@@ -4008,7 +4341,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CICS; strong NLP/IR historically. MS funding rare vs PhD.",
       "applyUrl": "https://www.cics.umass.edu/",
       "infoUrl": "https://www.cics.umass.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cics.umass.edu/people/faculty",
+      "facultyAiDir": "https://www.cics.umass.edu/research",
+      "facultyNote": "CICS faculty"
     },
     {
       "id": "us-dartmouth-phd",
@@ -4047,7 +4383,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Smaller cohort.",
       "applyUrl": "https://web.cs.dartmouth.edu/graduate/",
       "infoUrl": "https://web.cs.dartmouth.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://web.cs.dartmouth.edu/people",
+      "facultyAiDir": "https://web.cs.dartmouth.edu/research",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-dartmouth-ms",
@@ -4083,7 +4422,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Smaller cohort. MS funding rare vs PhD.",
       "applyUrl": "https://web.cs.dartmouth.edu/",
       "infoUrl": "https://web.cs.dartmouth.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://web.cs.dartmouth.edu/people",
+      "facultyAiDir": "https://web.cs.dartmouth.edu/research",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-ohio-state-phd",
@@ -4122,7 +4464,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm exact CS deadline.",
       "applyUrl": "https://cse.osu.edu/graduate",
       "infoUrl": "https://cse.osu.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.osu.edu/people",
+      "facultyAiDir": "https://cse.osu.edu/research",
+      "facultyNote": "CSE people"
     },
     {
       "id": "us-ohio-state-ms",
@@ -4158,7 +4503,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm exact CS deadline. MS funding rare vs PhD.",
       "applyUrl": "https://ece.osu.edu/",
       "infoUrl": "https://ece.osu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.osu.edu/people",
+      "facultyAiDir": "https://cse.osu.edu/research",
+      "facultyNote": "CSE people"
     },
     {
       "id": "us-penn-state-phd",
@@ -4197,7 +4545,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS.",
       "applyUrl": "https://www.eecs.psu.edu/students/graduate/Graduate-Apply.aspx",
       "infoUrl": "https://www.eecs.psu.edu/students/graduate/Graduate-Apply.aspx",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.eecs.psu.edu/departments/listCSfaculty.aspx",
+      "facultyAiDir": "https://www.eecs.psu.edu/research/",
+      "facultyNote": "EECS CS faculty"
     },
     {
       "id": "us-penn-state-ms",
@@ -4233,7 +4584,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS. MS funding rare vs PhD.",
       "applyUrl": "https://www.eecs.psu.edu/",
       "infoUrl": "https://www.eecs.psu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.eecs.psu.edu/departments/listCSfaculty.aspx",
+      "facultyAiDir": "https://www.eecs.psu.edu/research/",
+      "facultyNote": "EECS CS faculty"
     },
     {
       "id": "us-umn-phd",
@@ -4272,7 +4626,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://cse.umn.edu/cs/graduate",
       "infoUrl": "https://cse.umn.edu/cs/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.umn.edu/cs/faculty",
+      "facultyAiDir": "https://cse.umn.edu/cs/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-umn-ms",
@@ -4308,7 +4665,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://cse.umn.edu/ece",
       "infoUrl": "https://cse.umn.edu/ece",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.umn.edu/cs/faculty",
+      "facultyAiDir": "https://cse.umn.edu/cs/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uva-phd",
@@ -4347,7 +4707,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD.",
       "applyUrl": "https://engineering.virginia.edu/departments/computer-science/academics/cs-graduate-programs",
       "infoUrl": "https://engineering.virginia.edu/departments/computer-science/academics/cs-graduate-programs",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.virginia.edu/departments/computer-science/people",
+      "facultyAiDir": "https://engineering.virginia.edu/departments/computer-science/research",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-uva-ms",
@@ -4383,7 +4746,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.virginia.edu/",
       "infoUrl": "https://engineering.virginia.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.virginia.edu/departments/computer-science/people",
+      "facultyAiDir": "https://engineering.virginia.edu/departments/computer-science/research",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-vanderbilt-phd",
@@ -4422,7 +4788,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS/ECE.",
       "applyUrl": "https://engineering.vanderbilt.edu/cs/",
       "infoUrl": "https://engineering.vanderbilt.edu/cs/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.vanderbilt.edu/academics/departments/computer-science/people/",
+      "facultyAiDir": "https://engineering.vanderbilt.edu/academics/departments/computer-science/",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-vanderbilt-ms",
@@ -4458,7 +4827,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS/ECE. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.vanderbilt.edu/",
       "infoUrl": "https://engineering.vanderbilt.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.vanderbilt.edu/academics/departments/computer-science/people/",
+      "facultyAiDir": "https://engineering.vanderbilt.edu/academics/departments/computer-science/",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-asu-phd",
@@ -4497,7 +4869,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Large online MCS options.",
       "applyUrl": "https://degree.engineering.asu.edu/computer-science/",
       "infoUrl": "https://degree.engineering.asu.edu/computer-science/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://search.asu.edu/profile/faculty?dept=Computer%20Science",
+      "facultyAiDir": "https://scai.engineering.asu.edu/",
+      "facultyNote": "SCAI / CS faculty"
     },
     {
       "id": "us-asu-ms",
@@ -4533,7 +4908,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Large online MCS options. MS funding rare vs PhD.",
       "applyUrl": "https://degree.engineering.asu.edu/",
       "infoUrl": "https://degree.engineering.asu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://search.asu.edu/profile/faculty?dept=Computer%20Science",
+      "facultyAiDir": "https://scai.engineering.asu.edu/",
+      "facultyNote": "SCAI / CS faculty"
     },
     {
       "id": "us-texas-a&m-phd",
@@ -4572,7 +4950,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP).",
       "applyUrl": "https://engineering.tamu.edu/cse/academics/graduate/index.html",
       "infoUrl": "https://engineering.tamu.edu/cse/academics/graduate/index.html",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://engineering.tamu.edu/cse/people/faculty.html",
+      "facultyAiDir": "https://engineering.tamu.edu/cse/research/index.html",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-texas-a&m-ms",
@@ -4608,7 +4989,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://engineering.tamu.edu/ece/",
       "infoUrl": "https://engineering.tamu.edu/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.tamu.edu/cse/people/faculty.html",
+      "facultyAiDir": "https://engineering.tamu.edu/cse/research/index.html",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-rutgers-phd",
@@ -4647,7 +5031,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.cs.rutgers.edu/academics/graduate",
       "infoUrl": "https://www.cs.rutgers.edu/academics/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.rutgers.edu/people/professors",
+      "facultyAiDir": "https://www.cs.rutgers.edu/research",
+      "facultyNote": "CS professors"
     },
     {
       "id": "us-rutgers-ms",
@@ -4683,7 +5070,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.rutgers.edu/",
       "infoUrl": "https://www.ece.rutgers.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.rutgers.edu/people/professors",
+      "facultyAiDir": "https://www.cs.rutgers.edu/research",
+      "facultyNote": "CS professors"
     },
     {
       "id": "us-stony-brook-phd",
@@ -4722,7 +5112,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong systems/theory value.",
       "applyUrl": "https://www.cs.stonybrook.edu/students/Graduate-Programs",
       "infoUrl": "https://www.cs.stonybrook.edu/students/Graduate-Programs",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.stonybrook.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.stonybrook.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-stony-brook-ms",
@@ -4758,7 +5151,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Strong systems/theory value. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.stonybrook.edu/",
       "infoUrl": "https://www.cs.stonybrook.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.stonybrook.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.stonybrook.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uutah-phd",
@@ -4797,7 +5193,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Graphics historically strong.",
       "applyUrl": "https://www.cs.utah.edu/graduate/",
       "infoUrl": "https://www.cs.utah.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.utah.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.utah.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uutah-ms",
@@ -4833,7 +5232,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Graphics historically strong. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.utah.edu/",
       "infoUrl": "https://www.cs.utah.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.utah.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.utah.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-washu-phd",
@@ -4872,7 +5274,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE PhD.",
       "applyUrl": "https://cse.wustl.edu/graduate/index.html",
       "infoUrl": "https://cse.wustl.edu/graduate/index.html",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.wustl.edu/faculty-research/faculty.html",
+      "facultyAiDir": "https://cse.wustl.edu/research/index.html",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-washu-ms",
@@ -4908,7 +5313,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE PhD. MS funding rare vs PhD.",
       "applyUrl": "https://cse.wustl.edu/",
       "infoUrl": "https://cse.wustl.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.wustl.edu/faculty-research/faculty.html",
+      "facultyAiDir": "https://cse.wustl.edu/research/index.html",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-ncsu-phd",
@@ -4947,7 +5355,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSC + ECE.",
       "applyUrl": "https://www.csc.ncsu.edu/academics/graduate/",
       "infoUrl": "https://www.csc.ncsu.edu/academics/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.csc.ncsu.edu/people/",
+      "facultyAiDir": "https://www.csc.ncsu.edu/research/",
+      "facultyNote": "CSC people"
     },
     {
       "id": "us-ncsu-ms",
@@ -4983,7 +5394,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSC + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://ece.ncsu.edu/",
       "infoUrl": "https://ece.ncsu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.csc.ncsu.edu/people/",
+      "facultyAiDir": "https://www.csc.ncsu.edu/research/",
+      "facultyNote": "CSC people"
     },
     {
       "id": "us-notre-dame-phd",
@@ -5022,7 +5436,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE.",
       "applyUrl": "https://cse.nd.edu/graduate/",
       "infoUrl": "https://cse.nd.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.nd.edu/faculty/",
+      "facultyAiDir": "https://cse.nd.edu/research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-notre-dame-ms",
@@ -5058,7 +5475,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE. MS funding rare vs PhD.",
       "applyUrl": "https://cse.nd.edu/",
       "infoUrl": "https://cse.nd.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cse.nd.edu/faculty/",
+      "facultyAiDir": "https://cse.nd.edu/research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-rochester-phd",
@@ -5097,7 +5517,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.cs.rochester.edu/graduate/",
       "infoUrl": "https://www.cs.rochester.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.rochester.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.rochester.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-rochester-ms",
@@ -5133,7 +5556,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.hajim.rochester.edu/ece/",
       "infoUrl": "https://www.hajim.rochester.edu/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.rochester.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.rochester.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uflorida-phd",
@@ -5172,7 +5598,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm CISE deadline.",
       "applyUrl": "https://www.cise.ufl.edu/academics/grad/",
       "infoUrl": "https://www.cise.ufl.edu/academics/grad/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cise.ufl.edu/people/faculty/",
+      "facultyAiDir": "https://www.cise.ufl.edu/research/",
+      "facultyNote": "CISE faculty"
     },
     {
       "id": "us-uflorida-ms",
@@ -5208,7 +5637,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Confirm CISE deadline. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.ufl.edu/",
       "infoUrl": "https://www.ece.ufl.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cise.ufl.edu/people/faculty/",
+      "facultyAiDir": "https://www.cise.ufl.edu/research/",
+      "facultyNote": "CISE faculty"
     },
     {
       "id": "us-bu-phd",
@@ -5247,7 +5679,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD.",
       "applyUrl": "https://www.bu.edu/cs/phd-program/",
       "infoUrl": "https://www.bu.edu/cs/phd-program/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.bu.edu/cs/people/faculty/",
+      "facultyAiDir": "https://www.bu.edu/cs/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-bu-ms",
@@ -5283,7 +5718,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS PhD. MS funding rare vs PhD.",
       "applyUrl": "https://www.bu.edu/cs/",
       "infoUrl": "https://www.bu.edu/cs/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.bu.edu/cs/people/faculty/",
+      "facultyAiDir": "https://www.bu.edu/cs/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-iu-phd",
@@ -5322,7 +5760,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Luddy School.",
       "applyUrl": "https://cs.indiana.edu/graduate/",
       "infoUrl": "https://cs.indiana.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.indiana.edu/people/faculty/",
+      "facultyAiDir": "https://cs.indiana.edu/research/",
+      "facultyNote": "Luddy CS faculty"
     },
     {
       "id": "us-iu-ms",
@@ -5358,7 +5799,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Luddy School. MS funding rare vs PhD.",
       "applyUrl": "https://cs.indiana.edu/",
       "infoUrl": "https://cs.indiana.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.indiana.edu/people/faculty/",
+      "facultyAiDir": "https://cs.indiana.edu/research/",
+      "facultyNote": "Luddy CS faculty"
     },
     {
       "id": "us-iowa-state-phd",
@@ -5397,7 +5841,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.cs.iastate.edu/graduate-programs",
       "infoUrl": "https://www.cs.iastate.edu/graduate-programs",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.iastate.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.iastate.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-iowa-state-ms",
@@ -5433,7 +5880,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.iastate.edu/",
       "infoUrl": "https://www.ece.iastate.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.iastate.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.iastate.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-oregon-state-phd",
@@ -5472,7 +5922,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS.",
       "applyUrl": "https://eecs.oregonstate.edu/graduate-programs",
       "infoUrl": "https://eecs.oregonstate.edu/graduate-programs",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://eecs.oregonstate.edu/people/faculty",
+      "facultyAiDir": "https://eecs.oregonstate.edu/research",
+      "facultyNote": "EECS faculty"
     },
     {
       "id": "us-oregon-state-ms",
@@ -5508,7 +5961,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS. MS funding rare vs PhD.",
       "applyUrl": "https://eecs.oregonstate.edu/",
       "infoUrl": "https://eecs.oregonstate.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://eecs.oregonstate.edu/people/faculty",
+      "facultyAiDir": "https://eecs.oregonstate.edu/research",
+      "facultyNote": "EECS faculty"
     },
     {
       "id": "us-ucsc-phd",
@@ -5547,7 +6003,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Jan 5 2027 (LEAP).",
       "applyUrl": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/",
       "infoUrl": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/people/",
+      "facultyAiDir": "https://engineering.ucsc.edu/research/",
+      "facultyNote": "CSE people"
     },
     {
       "id": "us-ucsc-ms",
@@ -5583,7 +6042,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Jan 5 2027 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://engineering.ucsc.edu/",
       "infoUrl": "https://engineering.ucsc.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/people/",
+      "facultyAiDir": "https://engineering.ucsc.edu/research/",
+      "facultyNote": "CSE people"
     },
     {
       "id": "us-ucr-phd",
@@ -5622,7 +6084,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE.",
       "applyUrl": "https://www1.cs.ucr.edu/graduate",
       "infoUrl": "https://www1.cs.ucr.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www1.cs.ucr.edu/people/faculty",
+      "facultyAiDir": "https://www1.cs.ucr.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ucr-ms",
@@ -5658,7 +6123,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE. MS funding rare vs PhD.",
       "applyUrl": "https://www1.cs.ucr.edu/",
       "infoUrl": "https://www1.cs.ucr.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www1.cs.ucr.edu/people/faculty",
+      "facultyAiDir": "https://www1.cs.ucr.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uic-phd",
@@ -5697,7 +6165,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Not to confuse with HK UIC/BNBU.",
       "applyUrl": "https://cs.uic.edu/graduate/",
       "infoUrl": "https://cs.uic.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.uic.edu/people/faculty/",
+      "facultyAiDir": "https://cs.uic.edu/research/",
+      "facultyNote": "UIC CS faculty"
     },
     {
       "id": "us-uic-ms",
@@ -5733,7 +6204,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Not to confuse with HK UIC/BNBU. MS funding rare vs PhD.",
       "applyUrl": "https://cs.uic.edu/",
       "infoUrl": "https://cs.uic.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.uic.edu/people/faculty/",
+      "facultyAiDir": "https://cs.uic.edu/research/",
+      "facultyNote": "UIC CS faculty"
     },
     {
       "id": "us-ucf-phd",
@@ -5772,7 +6246,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.cs.ucf.edu/graduate/",
       "infoUrl": "https://www.cs.ucf.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.ucf.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.ucf.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ucf-ms",
@@ -5808,7 +6285,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.ucf.edu/",
       "infoUrl": "https://www.cs.ucf.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.ucf.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.ucf.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-buffalo-phd",
@@ -5847,7 +6327,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE.",
       "applyUrl": "https://engineering.buffalo.edu/computer-science-engineering.html",
       "infoUrl": "https://engineering.buffalo.edu/computer-science-engineering.html",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html",
+      "facultyAiDir": "https://engineering.buffalo.edu/computer-science-engineering/research.html",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-buffalo-ms",
@@ -5883,7 +6366,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.buffalo.edu/",
       "infoUrl": "https://engineering.buffalo.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html",
+      "facultyAiDir": "https://engineering.buffalo.edu/computer-science-engineering/research.html",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-msu-phd",
@@ -5922,7 +6408,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE + ECE.",
       "applyUrl": "https://www.cse.msu.edu/Students/Graduate/",
       "infoUrl": "https://www.cse.msu.edu/Students/Graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cse.msu.edu/People/Faculty/",
+      "facultyAiDir": "https://www.cse.msu.edu/Research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-msu-ms",
@@ -5958,7 +6447,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.egr.msu.edu/ece/",
       "infoUrl": "https://www.egr.msu.edu/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cse.msu.edu/People/Faculty/",
+      "facultyAiDir": "https://www.cse.msu.edu/Research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-pitt-phd",
@@ -5997,7 +6489,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.cs.pitt.edu/graduate",
       "infoUrl": "https://www.cs.pitt.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.pitt.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.pitt.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-pitt-ms",
@@ -6033,7 +6528,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.engineering.pitt.edu/ECE/",
       "infoUrl": "https://www.engineering.pitt.edu/ECE/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.pitt.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.pitt.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uarizona-phd",
@@ -6072,7 +6570,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.cs.arizona.edu/graduate",
       "infoUrl": "https://www.cs.arizona.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.arizona.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.arizona.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uarizona-ms",
@@ -6108,7 +6609,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://ece.arizona.edu/",
       "infoUrl": "https://ece.arizona.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.arizona.edu/people/faculty",
+      "facultyAiDir": "https://www.cs.arizona.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-gmu-phd",
@@ -6147,7 +6651,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://cs.gmu.edu/prospective-students/graduate/",
       "infoUrl": "https://cs.gmu.edu/prospective-students/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.gmu.edu/people/faculty/",
+      "facultyAiDir": "https://cs.gmu.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-gmu-ms",
@@ -6183,7 +6690,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://ece.gmu.edu/",
       "infoUrl": "https://ece.gmu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.gmu.edu/people/faculty/",
+      "facultyAiDir": "https://cs.gmu.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ut-dallas-phd",
@@ -6222,7 +6732,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://cs.utdallas.edu/academics/graduate-programs/",
       "infoUrl": "https://cs.utdallas.edu/academics/graduate-programs/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.utdallas.edu/people/faculty/",
+      "facultyAiDir": "https://cs.utdallas.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-ut-dallas-ms",
@@ -6258,7 +6771,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://ece.utdallas.edu/",
       "infoUrl": "https://ece.utdallas.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.utdallas.edu/people/faculty/",
+      "facultyAiDir": "https://cs.utdallas.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-tufts-phd",
@@ -6297,7 +6813,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://engineering.tufts.edu/cs/graduate-programs",
       "infoUrl": "https://engineering.tufts.edu/cs/graduate-programs",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.tufts.edu/cs/people/faculty",
+      "facultyAiDir": "https://engineering.tufts.edu/cs/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-tufts-ms",
@@ -6333,7 +6852,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.tufts.edu/",
       "infoUrl": "https://engineering.tufts.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.tufts.edu/cs/people/faculty",
+      "facultyAiDir": "https://engineering.tufts.edu/cs/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-rpi-phd",
@@ -6372,7 +6894,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECSE.",
       "applyUrl": "https://science.rpi.edu/computer-science/programs/grad",
       "infoUrl": "https://science.rpi.edu/computer-science/programs/grad",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://science.rpi.edu/computer-science/faculty",
+      "facultyAiDir": "https://science.rpi.edu/computer-science/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-rpi-ms",
@@ -6408,7 +6933,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECSE. MS funding rare vs PhD.",
       "applyUrl": "https://www.ecse.rpi.edu/",
       "infoUrl": "https://www.ecse.rpi.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://science.rpi.edu/computer-science/faculty",
+      "facultyAiDir": "https://science.rpi.edu/computer-science/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-case-western-phd",
@@ -6447,7 +6975,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CDS.",
       "applyUrl": "https://engineering.case.edu/computer-and-data-sciences",
       "infoUrl": "https://engineering.case.edu/computer-and-data-sciences",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.case.edu/computer-and-data-sciences/people",
+      "facultyAiDir": "https://engineering.case.edu/computer-and-data-sciences/research",
+      "facultyNote": "CDS people"
     },
     {
       "id": "us-case-western-ms",
@@ -6483,7 +7014,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CDS. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.case.edu/",
       "infoUrl": "https://engineering.case.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.case.edu/computer-and-data-sciences/people",
+      "facultyAiDir": "https://engineering.case.edu/computer-and-data-sciences/research",
+      "facultyNote": "CDS people"
     },
     {
       "id": "us-umbc-phd",
@@ -6522,7 +7056,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Jan 20 2027 (LEAP).",
       "applyUrl": "https://www.csee.umbc.edu/graduate/",
       "infoUrl": "https://www.csee.umbc.edu/graduate/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.csee.umbc.edu/people/faculty/",
+      "facultyAiDir": "https://www.csee.umbc.edu/research/",
+      "facultyNote": "CSEE faculty"
     },
     {
       "id": "us-umbc-ms",
@@ -6558,7 +7095,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Jan 20 2027 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://www.csee.umbc.edu/",
       "infoUrl": "https://www.csee.umbc.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.csee.umbc.edu/people/faculty/",
+      "facultyAiDir": "https://www.csee.umbc.edu/research/",
+      "facultyNote": "CSEE faculty"
     },
     {
       "id": "us-stevens-phd",
@@ -6597,7 +7137,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science",
       "infoUrl": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science/faculty",
+      "facultyAiDir": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-stevens-ms",
@@ -6633,7 +7176,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.stevens.edu/",
       "infoUrl": "https://www.stevens.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science/faculty",
+      "facultyAiDir": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-udelaware-phd",
@@ -6672,7 +7218,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CIS.",
       "applyUrl": "https://www.cis.udel.edu/graduate/",
       "infoUrl": "https://www.cis.udel.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cis.udel.edu/people/faculty/",
+      "facultyAiDir": "https://www.cis.udel.edu/research/",
+      "facultyNote": "CIS faculty"
     },
     {
       "id": "us-udelaware-ms",
@@ -6708,7 +7257,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CIS. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.udel.edu/",
       "infoUrl": "https://www.ece.udel.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cis.udel.edu/people/faculty/",
+      "facultyAiDir": "https://www.cis.udel.edu/research/",
+      "facultyNote": "CIS faculty"
     },
     {
       "id": "us-unebraska-phd",
@@ -6747,7 +7299,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Computing.",
       "applyUrl": "https://computing.unl.edu/",
       "infoUrl": "https://computing.unl.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://computing.unl.edu/faculty/",
+      "facultyAiDir": "https://computing.unl.edu/research/",
+      "facultyNote": "Computing faculty"
     },
     {
       "id": "us-unebraska-ms",
@@ -6783,7 +7338,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Computing. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.unl.edu/ece/",
       "infoUrl": "https://engineering.unl.edu/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://computing.unl.edu/faculty/",
+      "facultyAiDir": "https://computing.unl.edu/research/",
+      "facultyNote": "Computing faculty"
     },
     {
       "id": "us-fsu-phd",
@@ -6822,7 +7380,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.cs.fsu.edu/graduate/",
       "infoUrl": "https://www.cs.fsu.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.fsu.edu/department/faculty/",
+      "facultyAiDir": "https://www.cs.fsu.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-fsu-ms",
@@ -6858,7 +7419,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.eng.famu.fsu.edu/ece",
       "infoUrl": "https://www.eng.famu.fsu.edu/ece",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.fsu.edu/department/faculty/",
+      "facultyAiDir": "https://www.cs.fsu.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-syracuse-phd",
@@ -6897,7 +7461,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP).",
       "applyUrl": "https://ecs.syracuse.edu/academics/computer-science",
       "infoUrl": "https://ecs.syracuse.edu/academics/computer-science",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://ecs.syracuse.edu/faculty-staff",
+      "facultyAiDir": "https://ecs.syracuse.edu/academics/computer-science",
+      "facultyNote": "ECS faculty/staff"
     },
     {
       "id": "us-syracuse-ms",
@@ -6933,7 +7500,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Dec 15 (LEAP). MS funding rare vs PhD.",
       "applyUrl": "https://ecs.syracuse.edu/",
       "infoUrl": "https://ecs.syracuse.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://ecs.syracuse.edu/faculty-staff",
+      "facultyAiDir": "https://ecs.syracuse.edu/academics/computer-science",
+      "facultyNote": "ECS faculty/staff"
     },
     {
       "id": "us-wsu-phd",
@@ -6972,7 +7542,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS.",
       "applyUrl": "https://school.eecs.wsu.edu/",
       "infoUrl": "https://school.eecs.wsu.edu/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://school.eecs.wsu.edu/people/faculty/",
+      "facultyAiDir": "https://school.eecs.wsu.edu/research/",
+      "facultyNote": "EECS faculty"
     },
     {
       "id": "us-wsu-ms",
@@ -7008,7 +7581,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS. MS funding rare vs PhD.",
       "applyUrl": "https://school.eecs.wsu.edu/",
       "infoUrl": "https://school.eecs.wsu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://school.eecs.wsu.edu/people/faculty/",
+      "facultyAiDir": "https://school.eecs.wsu.edu/research/",
+      "facultyNote": "EECS faculty"
     },
     {
       "id": "us-clemson-phd",
@@ -7047,7 +7623,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Computing.",
       "applyUrl": "https://www.clemson.edu/cecas/departments/computing/",
       "infoUrl": "https://www.clemson.edu/cecas/departments/computing/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.clemson.edu/cecas/departments/computing/people/faculty.html",
+      "facultyAiDir": "https://www.clemson.edu/cecas/departments/computing/research/",
+      "facultyNote": "Computing faculty"
     },
     {
       "id": "us-clemson-ms",
@@ -7083,7 +7662,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Computing. MS funding rare vs PhD.",
       "applyUrl": "https://www.clemson.edu/cecas/departments/ece/",
       "infoUrl": "https://www.clemson.edu/cecas/departments/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.clemson.edu/cecas/departments/computing/people/faculty.html",
+      "facultyAiDir": "https://www.clemson.edu/cecas/departments/computing/research/",
+      "facultyNote": "Computing faculty"
     },
     {
       "id": "us-drexel-phd",
@@ -7122,7 +7704,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CCI.",
       "applyUrl": "https://drexel.edu/cci/academics/doctoral-programs/",
       "infoUrl": "https://drexel.edu/cci/academics/doctoral-programs/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://drexel.edu/cci/about/directory/",
+      "facultyAiDir": "https://drexel.edu/cci/research/",
+      "facultyNote": "CCI directory"
     },
     {
       "id": "us-drexel-ms",
@@ -7158,7 +7743,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CCI. MS funding rare vs PhD.",
       "applyUrl": "https://drexel.edu/cci/",
       "infoUrl": "https://drexel.edu/cci/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://drexel.edu/cci/about/directory/",
+      "facultyAiDir": "https://drexel.edu/cci/research/",
+      "facultyNote": "CCI directory"
     },
     {
       "id": "us-uconn-phd",
@@ -7197,7 +7785,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE.",
       "applyUrl": "https://www.cse.uconn.edu/graduate/",
       "infoUrl": "https://www.cse.uconn.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cse.uconn.edu/people/faculty/",
+      "facultyAiDir": "https://www.cse.uconn.edu/research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-uconn-ms",
@@ -7233,7 +7824,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE. MS funding rare vs PhD.",
       "applyUrl": "https://www.ee.uconn.edu/",
       "infoUrl": "https://www.ee.uconn.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cse.uconn.edu/people/faculty/",
+      "facultyAiDir": "https://www.cse.uconn.edu/research/",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-ttic-phd",
@@ -7272,7 +7866,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD-focused CS institute.",
       "applyUrl": "https://www.ttic.edu/admissions/",
       "infoUrl": "https://www.ttic.edu/admissions/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.ttic.edu/faculty/",
+      "facultyAiDir": "https://www.ttic.edu/research/",
+      "facultyNote": "TTIC faculty"
     },
     {
       "id": "us-ttic-ms",
@@ -7308,7 +7905,10 @@ window.ADMISSIONS_DATA = {
       "notes": "PhD-focused CS institute. MS funding rare vs PhD.",
       "applyUrl": "https://www.ttic.edu/",
       "infoUrl": "https://www.ttic.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.ttic.edu/faculty/",
+      "facultyAiDir": "https://www.ttic.edu/research/",
+      "facultyNote": "TTIC faculty"
     },
     {
       "id": "us-unc-charlotte-phd",
@@ -7347,7 +7947,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CCI.",
       "applyUrl": "https://cci.charlotte.edu/",
       "infoUrl": "https://cci.charlotte.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cci.charlotte.edu/directory/",
+      "facultyAiDir": "https://cci.charlotte.edu/research/",
+      "facultyNote": "CCI directory"
     },
     {
       "id": "us-unc-charlotte-ms",
@@ -7383,7 +7986,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CCI. MS funding rare vs PhD.",
       "applyUrl": "https://cci.charlotte.edu/",
       "infoUrl": "https://cci.charlotte.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cci.charlotte.edu/directory/",
+      "facultyAiDir": "https://cci.charlotte.edu/research/",
+      "facultyNote": "CCI directory"
     },
     {
       "id": "us-ut-arlington-phd",
@@ -7422,7 +8028,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE.",
       "applyUrl": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse",
       "infoUrl": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/faculty",
+      "facultyAiDir": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-ut-arlington-ms",
@@ -7458,7 +8067,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE. MS funding rare vs PhD.",
       "applyUrl": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/ee",
       "infoUrl": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/ee",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/faculty",
+      "facultyAiDir": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-uiowa-phd",
@@ -7497,7 +8109,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://cs.uiowa.edu/graduate-program",
       "infoUrl": "https://cs.uiowa.edu/graduate-program",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.uiowa.edu/people/faculty",
+      "facultyAiDir": "https://cs.uiowa.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uiowa-ms",
@@ -7533,7 +8148,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.uiowa.edu/ece",
       "infoUrl": "https://engineering.uiowa.edu/ece",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.uiowa.edu/people/faculty",
+      "facultyAiDir": "https://cs.uiowa.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-georgetown-phd",
@@ -7572,7 +8190,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://cs.georgetown.edu/graduate/",
       "infoUrl": "https://cs.georgetown.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.georgetown.edu/people/faculty/",
+      "facultyAiDir": "https://cs.georgetown.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-georgetown-ms",
@@ -7608,7 +8229,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://cs.georgetown.edu/",
       "infoUrl": "https://cs.georgetown.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.georgetown.edu/people/faculty/",
+      "facultyAiDir": "https://cs.georgetown.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-gwu-phd",
@@ -7647,7 +8271,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.cs.seas.gwu.edu/",
       "infoUrl": "https://www.cs.seas.gwu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.seas.gwu.edu/faculty",
+      "facultyAiDir": "https://www.cs.seas.gwu.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-gwu-ms",
@@ -7683,7 +8310,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.seas.gwu.edu/",
       "infoUrl": "https://www.ece.seas.gwu.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.seas.gwu.edu/faculty",
+      "facultyAiDir": "https://www.cs.seas.gwu.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-binghamton-phd",
@@ -7722,7 +8352,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.binghamton.edu/computer-science/",
       "infoUrl": "https://www.binghamton.edu/computer-science/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.binghamton.edu/computer-science/people/index.html",
+      "facultyAiDir": "https://www.binghamton.edu/computer-science/research/index.html",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-binghamton-ms",
@@ -7758,7 +8391,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.binghamton.edu/watson/ece/",
       "infoUrl": "https://www.binghamton.edu/watson/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.binghamton.edu/computer-science/people/index.html",
+      "facultyAiDir": "https://www.binghamton.edu/computer-science/research/index.html",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-njit-phd",
@@ -7797,7 +8433,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Computing.",
       "applyUrl": "https://computing.njit.edu/",
       "infoUrl": "https://computing.njit.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://computing.njit.edu/people",
+      "facultyAiDir": "https://computing.njit.edu/research",
+      "facultyNote": "Computing people"
     },
     {
       "id": "us-njit-ms",
@@ -7833,7 +8472,10 @@ window.ADMISSIONS_DATA = {
       "notes": "Computing. MS funding rare vs PhD.",
       "applyUrl": "https://ece.njit.edu/",
       "infoUrl": "https://ece.njit.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://computing.njit.edu/people",
+      "facultyAiDir": "https://computing.njit.edu/research",
+      "facultyNote": "Computing people"
     },
     {
       "id": "us-wpi-phd",
@@ -7872,7 +8514,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.wpi.edu/academics/departments/computer-science",
       "infoUrl": "https://www.wpi.edu/academics/departments/computer-science",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.wpi.edu/academics/departments/computer-science/faculty-staff",
+      "facultyAiDir": "https://www.wpi.edu/academics/departments/computer-science/research",
+      "facultyNote": "CS faculty/staff"
     },
     {
       "id": "us-wpi-ms",
@@ -7908,7 +8553,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.wpi.edu/academics/departments/electrical-computer-engineering",
       "infoUrl": "https://www.wpi.edu/academics/departments/electrical-computer-engineering",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.wpi.edu/academics/departments/computer-science/faculty-staff",
+      "facultyAiDir": "https://www.wpi.edu/academics/departments/computer-science/research",
+      "facultyNote": "CS faculty/staff"
     },
     {
       "id": "us-utk-phd",
@@ -7947,7 +8595,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS.",
       "applyUrl": "https://www.eecs.utk.edu/",
       "infoUrl": "https://www.eecs.utk.edu/",
-      "detailLevel": "verified-deadline"
+      "detailLevel": "verified-deadline",
+      "facultyDir": "https://www.eecs.utk.edu/people/",
+      "facultyAiDir": "https://www.eecs.utk.edu/research/",
+      "facultyNote": "EECS people"
     },
     {
       "id": "us-utk-ms",
@@ -7983,7 +8634,10 @@ window.ADMISSIONS_DATA = {
       "notes": "EECS. MS funding rare vs PhD.",
       "applyUrl": "https://www.eecs.utk.edu/",
       "infoUrl": "https://www.eecs.utk.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.eecs.utk.edu/people/",
+      "facultyAiDir": "https://www.eecs.utk.edu/research/",
+      "facultyNote": "EECS people"
     },
     {
       "id": "us-emory-phd",
@@ -8022,7 +8676,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.cs.emory.edu/graduate/",
       "infoUrl": "https://www.cs.emory.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.emory.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.emory.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-emory-ms",
@@ -8058,7 +8715,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.cs.emory.edu/",
       "infoUrl": "https://www.cs.emory.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.emory.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.emory.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uga-phd",
@@ -8097,7 +8757,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.cs.uga.edu/graduate",
       "infoUrl": "https://www.cs.uga.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.uga.edu/directory/faculty",
+      "facultyAiDir": "https://www.cs.uga.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uga-ms",
@@ -8133,7 +8796,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.uga.edu/",
       "infoUrl": "https://www.ece.uga.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.uga.edu/directory/faculty",
+      "facultyAiDir": "https://www.cs.uga.edu/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-temple-phd",
@@ -8172,7 +8838,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CIS.",
       "applyUrl": "https://cis.temple.edu/graduate",
       "infoUrl": "https://cis.temple.edu/graduate",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cis.temple.edu/people/faculty",
+      "facultyAiDir": "https://cis.temple.edu/research",
+      "facultyNote": "CIS faculty"
     },
     {
       "id": "us-temple-ms",
@@ -8208,7 +8877,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CIS. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.temple.edu/academics/departments/electrical-computer-engineering",
       "infoUrl": "https://engineering.temple.edu/academics/departments/electrical-computer-engineering",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cis.temple.edu/people/faculty",
+      "facultyAiDir": "https://cis.temple.edu/research",
+      "facultyNote": "CIS faculty"
     },
     {
       "id": "us-lehigh-phd",
@@ -8247,7 +8919,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE.",
       "applyUrl": "https://engineering.lehigh.edu/cse",
       "infoUrl": "https://engineering.lehigh.edu/cse",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.lehigh.edu/cse/faculty",
+      "facultyAiDir": "https://engineering.lehigh.edu/cse/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-lehigh-ms",
@@ -8283,7 +8958,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CSE. MS funding rare vs PhD.",
       "applyUrl": "https://engineering.lehigh.edu/ece",
       "infoUrl": "https://engineering.lehigh.edu/ece",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://engineering.lehigh.edu/cse/faculty",
+      "facultyAiDir": "https://engineering.lehigh.edu/cse/research",
+      "facultyNote": "CSE faculty"
     },
     {
       "id": "us-iit-phd",
@@ -8322,7 +9000,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.iit.edu/computer-science",
       "infoUrl": "https://www.iit.edu/computer-science",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.iit.edu/computer-science/faculty",
+      "facultyAiDir": "https://www.iit.edu/computer-science/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-iit-ms",
@@ -8358,7 +9039,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.iit.edu/ece",
       "infoUrl": "https://www.iit.edu/ece",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.iit.edu/computer-science/faculty",
+      "facultyAiDir": "https://www.iit.edu/computer-science/research",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-auburn-phd",
@@ -8397,7 +9081,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE.",
       "applyUrl": "https://www.eng.auburn.edu/comp/",
       "infoUrl": "https://www.eng.auburn.edu/comp/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.eng.auburn.edu/comp/faculty/",
+      "facultyAiDir": "https://www.eng.auburn.edu/comp/research/",
+      "facultyNote": "CSSE faculty"
     },
     {
       "id": "us-auburn-ms",
@@ -8433,7 +9120,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + ECE. MS funding rare vs PhD.",
       "applyUrl": "https://www.eng.auburn.edu/ece/",
       "infoUrl": "https://www.eng.auburn.edu/ece/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.eng.auburn.edu/comp/faculty/",
+      "facultyAiDir": "https://www.eng.auburn.edu/comp/research/",
+      "facultyNote": "CSSE faculty"
     },
     {
       "id": "us-uh-phd",
@@ -8472,7 +9162,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS.",
       "applyUrl": "https://www.cs.uh.edu/graduate/",
       "infoUrl": "https://www.cs.uh.edu/graduate/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.uh.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.uh.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-uh-ms",
@@ -8508,7 +9201,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS. MS funding rare vs PhD.",
       "applyUrl": "https://www.ece.uh.edu/",
       "infoUrl": "https://www.ece.uh.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://www.cs.uh.edu/people/faculty/",
+      "facultyAiDir": "https://www.cs.uh.edu/research/",
+      "facultyNote": "CS faculty"
     },
     {
       "id": "us-colorado-mines-phd",
@@ -8547,7 +9243,10 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + EE.",
       "applyUrl": "https://cs.mines.edu/",
       "infoUrl": "https://cs.mines.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.mines.edu/people/",
+      "facultyAiDir": "https://cs.mines.edu/research/",
+      "facultyNote": "CS people"
     },
     {
       "id": "us-colorado-mines-ms",
@@ -8583,7 +9282,1008 @@ window.ADMISSIONS_DATA = {
       "notes": "CS + EE. MS funding rare vs PhD.",
       "applyUrl": "https://ece.mines.edu/",
       "infoUrl": "https://ece.mines.edu/",
-      "detailLevel": "portal-check"
+      "detailLevel": "portal-check",
+      "facultyDir": "https://cs.mines.edu/people/",
+      "facultyAiDir": "https://cs.mines.edu/research/",
+      "facultyNote": "CS people"
     }
-  ]
+  ],
+  "faculty": {
+    "directories": {
+      "HKU": {
+        "all": "https://www.cs.hku.hk/people/academic-staff",
+        "ai": "https://ai.hku.hk/people/academic-staff",
+        "note": "CDS：CS Division + AI & Data Science Division"
+      },
+      "CUHK": {
+        "all": "https://www.cse.cuhk.edu.hk/people/faculty/",
+        "ai": "https://www.cse.cuhk.edu.hk/people/faculty/",
+        "note": "CSE faculty page；可按 Artificial Intelligence 等标签筛选"
+      },
+      "HKUST": {
+        "all": "https://cse.hkust.edu.hk/admin/people/faculty/",
+        "ai": "https://cse.hkust.edu.hk/admin/people/faculty/",
+        "note": "CSE faculty；多位标注 Artificial Intelligence / Vision"
+      },
+      "CityUHK": {
+        "all": "https://www.cs.cityu.edu.hk/people/academic-staff",
+        "ai": "https://www.cs.cityu.edu.hk/research",
+        "note": "CS 学术人员 + 研究组"
+      },
+      "PolyU": {
+        "all": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+        "ai": "https://www.polyu.edu.hk/comp/research/",
+        "note": "Computing 学术人员"
+      },
+      "HKBU": {
+        "all": "https://www.comp.hkbu.edu.hk/v1/?page=people",
+        "ai": "https://www.comp.hkbu.edu.hk/v1/?page=people",
+        "note": "COMP people"
+      },
+      "HKUST(GZ)": {
+        "all": "https://facultyprofiles.hkust-gz.edu.cn/",
+        "ai": "https://hkust-gz.edu.cn/academics/four-hubs",
+        "note": "按 Hub/Thrust 浏览导师"
+      },
+      "CUHK-Shenzhen": {
+        "all": "https://sse.cuhk.edu.cn/en/faculty",
+        "ai": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
+        "note": "SSE faculty；另见 SDS"
+      },
+      "CUHK-Shenzhen SDS": {
+        "all": "https://sds.cuhk.edu.cn/en/teacher",
+        "ai": "https://sds.cuhk.edu.cn/en/teacher",
+        "note": "School of Data Science faculty"
+      },
+      "CityUHK (Dongguan)": {
+        "all": "https://www.cityu-dg.edu.cn/en/home",
+        "ai": "https://pga.cityu-dg.edu.cn/en/home",
+        "note": "新校区；师资名单以官网更新为准"
+      },
+      "BNBU/UIC": {
+        "all": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology/SUPERVISORS.htm",
+        "ai": "https://gs.bnbu.edu.cn/graduate1/Research_Postgraduate_Programme/Computer_Science_and_Technology.htm",
+        "note": "CS&T 导师名单"
+      },
+      "NUS": {
+        "all": "https://www.comp.nus.edu.sg/about/faculty/",
+        "ai": "https://www.comp.nus.edu.sg/cs/research/ai/people/",
+        "note": "SoC faculty + AI research people；另见 NUS AI Lab"
+      },
+      "NTU": {
+        "all": "https://www.ntu.edu.sg/computing/our-faculty/faculty-at-ccds",
+        "ai": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty",
+        "note": "CCDS 全员目录 + AI Faculty 专题"
+      },
+      "SMU": {
+        "all": "https://computing.smu.edu.sg/faculty",
+        "ai": "https://computing.smu.edu.sg/faculty",
+        "note": "SCIS faculty"
+      },
+      "SUTD": {
+        "all": "https://www.sutd.edu.sg/education/faculty/",
+        "ai": "https://istd.sutd.edu.sg/people/faculty",
+        "note": "ISTD 等 pillar faculty"
+      },
+      "SIT": {
+        "all": "https://www.singaporetech.edu.sg/about/our-people",
+        "ai": "https://www.singaporetech.edu.sg/graduate",
+        "note": "SIT people / graduate supervisors"
+      },
+      "SINGA": {
+        "all": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+        "ai": "https://www.a-star.edu.sg/Research",
+        "note": "通过 SINGA 选 A*STAR / 大学导师"
+      },
+      "CMU": {
+        "all": "https://csd.cs.cmu.edu/people/faculty",
+        "ai": "https://www.cs.cmu.edu/research/ai",
+        "note": "CSD faculty；SCS 还有 ML/RI/LTI 等系"
+      },
+      "MIT": {
+        "all": "https://www.eecs.mit.edu/role/faculty/",
+        "ai": "https://www.eecs.mit.edu/role/faculty-aid/",
+        "note": "EECS faculty；另有 Faculty AI+D / CS / EE"
+      },
+      "Stanford": {
+        "all": "https://www.cs.stanford.edu/people/faculty",
+        "ai": "https://hai.stanford.edu/people",
+        "note": "CS faculty + Stanford HAI"
+      },
+      "UC Berkeley": {
+        "all": "https://www2.eecs.berkeley.edu/Faculty/Lists/list.html",
+        "ai": "https://www2.eecs.berkeley.edu/Research/Areas/AI/",
+        "note": "EECS faculty by research area"
+      },
+      "UIUC": {
+        "all": "https://siebelschool.illinois.edu/about/people/faculty",
+        "ai": "https://siebelschool.illinois.edu/research/areas",
+        "note": "Siebel School faculty"
+      },
+      "Princeton": {
+        "all": "https://www.cs.princeton.edu/people/faculty",
+        "ai": "https://www.cs.princeton.edu/research",
+        "note": "CS faculty"
+      },
+      "Cornell": {
+        "all": "https://www.cs.cornell.edu/people/faculty",
+        "ai": "https://www.cs.cornell.edu/research",
+        "note": "CS faculty"
+      },
+      "Georgia Tech": {
+        "all": "https://www.cc.gatech.edu/people/faculty",
+        "ai": "https://www.cc.gatech.edu/research",
+        "note": "College of Computing faculty"
+      },
+      "UW": {
+        "all": "https://www.cs.washington.edu/people/faculty",
+        "ai": "https://www.cs.washington.edu/research",
+        "note": "CSE faculty"
+      },
+      "UT Austin": {
+        "all": "https://www.cs.utexas.edu/people/faculty-researchers",
+        "ai": "https://www.cs.utexas.edu/research",
+        "note": "CS faculty"
+      },
+      "Caltech": {
+        "all": "https://www.cms.caltech.edu/people",
+        "ai": "https://www.cms.caltech.edu/research",
+        "note": "CMS faculty"
+      },
+      "Harvard": {
+        "all": "https://www.seas.harvard.edu/computer-science/people",
+        "ai": "https://www.seas.harvard.edu/computer-science/research",
+        "note": "SEAS CS people"
+      },
+      "UCSD": {
+        "all": "https://cse.ucsd.edu/people/faculty",
+        "ai": "https://cse.ucsd.edu/research",
+        "note": "CSE faculty"
+      },
+      "UMich": {
+        "all": "https://cse.engin.umich.edu/people/faculty/",
+        "ai": "https://cse.engin.umich.edu/research/",
+        "note": "CSE faculty"
+      },
+      "UCLA": {
+        "all": "https://www.cs.ucla.edu/people/faculty/",
+        "ai": "https://www.cs.ucla.edu/research/",
+        "note": "CS faculty"
+      },
+      "Columbia": {
+        "all": "https://www.cs.columbia.edu/people/faculty/",
+        "ai": "https://www.cs.columbia.edu/research/",
+        "note": "CS faculty"
+      },
+      "JHU": {
+        "all": "https://www.cs.jhu.edu/faculty/",
+        "ai": "https://www.cs.jhu.edu/research/",
+        "note": "CS faculty"
+      },
+      "Purdue": {
+        "all": "https://www.cs.purdue.edu/people/faculty/index.html",
+        "ai": "https://www.cs.purdue.edu/research/index.html",
+        "note": "CS faculty"
+      },
+      "UMD": {
+        "all": "https://www.cs.umd.edu/people/faculty",
+        "ai": "https://www.cs.umd.edu/research",
+        "note": "CS faculty"
+      },
+      "UPenn": {
+        "all": "https://www.cis.upenn.edu/people/faculty/",
+        "ai": "https://www.cis.upenn.edu/research/",
+        "note": "CIS faculty"
+      },
+      "USC": {
+        "all": "https://www.cs.usc.edu/faculty-staff/",
+        "ai": "https://www.cs.usc.edu/research/",
+        "note": "CS faculty"
+      },
+      "UW–Madison": {
+        "all": "https://www.cs.wisc.edu/people/faculty/",
+        "ai": "https://www.cs.wisc.edu/research/",
+        "note": "CS faculty"
+      },
+      "Yale": {
+        "all": "https://cpsc.yale.edu/people/faculty",
+        "ai": "https://cpsc.yale.edu/research",
+        "note": "CPSC faculty"
+      },
+      "Duke": {
+        "all": "https://www.cs.duke.edu/people/faculty",
+        "ai": "https://www.cs.duke.edu/research",
+        "note": "CS faculty"
+      },
+      "Brown": {
+        "all": "https://cs.brown.edu/people/faculty/",
+        "ai": "https://cs.brown.edu/research/",
+        "note": "CS faculty"
+      },
+      "UChicago": {
+        "all": "https://cs.uchicago.edu/people/faculty/",
+        "ai": "https://cs.uchicago.edu/research/",
+        "note": "CS faculty"
+      },
+      "UCI": {
+        "all": "https://www.ics.uci.edu/faculty/",
+        "ai": "https://www.ics.uci.edu/research/",
+        "note": "ICS faculty"
+      },
+      "Virginia Tech": {
+        "all": "https://cs.vt.edu/People/Faculty.html",
+        "ai": "https://cs.vt.edu/Research.html",
+        "note": "CS faculty"
+      },
+      "NYU": {
+        "all": "https://cs.nyu.edu/home/people/faculty.html",
+        "ai": "https://cs.nyu.edu/home/research/",
+        "note": "Courant CS faculty"
+      },
+      "Northwestern": {
+        "all": "https://www.mccormick.northwestern.edu/computer-science/people/faculty/",
+        "ai": "https://www.mccormick.northwestern.edu/computer-science/research/",
+        "note": "CS faculty"
+      },
+      "Rice": {
+        "all": "https://csweb.rice.edu/people/faculty",
+        "ai": "https://csweb.rice.edu/research",
+        "note": "CS faculty"
+      },
+      "CU Boulder": {
+        "all": "https://www.colorado.edu/cs/people/faculty",
+        "ai": "https://www.colorado.edu/cs/research",
+        "note": "CS faculty"
+      },
+      "UNC": {
+        "all": "https://cs.unc.edu/people/faculty/",
+        "ai": "https://cs.unc.edu/research/",
+        "note": "CS faculty"
+      },
+      "Northeastern": {
+        "all": "https://www.khoury.northeastern.edu/people/faculty/",
+        "ai": "https://www.khoury.northeastern.edu/research/",
+        "note": "Khoury faculty"
+      },
+      "UC Davis": {
+        "all": "https://cs.ucdavis.edu/people/faculty",
+        "ai": "https://cs.ucdavis.edu/research",
+        "note": "CS faculty"
+      },
+      "UCSB": {
+        "all": "https://www.cs.ucsb.edu/people/faculty",
+        "ai": "https://www.cs.ucsb.edu/research",
+        "note": "CS faculty"
+      },
+      "UMass": {
+        "all": "https://www.cics.umass.edu/people/faculty",
+        "ai": "https://www.cics.umass.edu/research",
+        "note": "CICS faculty"
+      },
+      "Dartmouth": {
+        "all": "https://web.cs.dartmouth.edu/people",
+        "ai": "https://web.cs.dartmouth.edu/research",
+        "note": "CS people"
+      },
+      "Ohio State": {
+        "all": "https://cse.osu.edu/people",
+        "ai": "https://cse.osu.edu/research",
+        "note": "CSE people"
+      },
+      "Penn State": {
+        "all": "https://www.eecs.psu.edu/departments/listCSfaculty.aspx",
+        "ai": "https://www.eecs.psu.edu/research/",
+        "note": "EECS CS faculty"
+      },
+      "UMN": {
+        "all": "https://cse.umn.edu/cs/faculty",
+        "ai": "https://cse.umn.edu/cs/research",
+        "note": "CS faculty"
+      },
+      "UVA": {
+        "all": "https://engineering.virginia.edu/departments/computer-science/people",
+        "ai": "https://engineering.virginia.edu/departments/computer-science/research",
+        "note": "CS people"
+      },
+      "Vanderbilt": {
+        "all": "https://engineering.vanderbilt.edu/academics/departments/computer-science/people/",
+        "ai": "https://engineering.vanderbilt.edu/academics/departments/computer-science/",
+        "note": "CS people"
+      },
+      "ASU": {
+        "all": "https://search.asu.edu/profile/faculty?dept=Computer%20Science",
+        "ai": "https://scai.engineering.asu.edu/",
+        "note": "SCAI / CS faculty"
+      },
+      "Texas A&M": {
+        "all": "https://engineering.tamu.edu/cse/people/faculty.html",
+        "ai": "https://engineering.tamu.edu/cse/research/index.html",
+        "note": "CSE faculty"
+      },
+      "Rutgers": {
+        "all": "https://www.cs.rutgers.edu/people/professors",
+        "ai": "https://www.cs.rutgers.edu/research",
+        "note": "CS professors"
+      },
+      "Stony Brook": {
+        "all": "https://www.cs.stonybrook.edu/people/faculty",
+        "ai": "https://www.cs.stonybrook.edu/research",
+        "note": "CS faculty"
+      },
+      "UUtah": {
+        "all": "https://www.cs.utah.edu/people/faculty/",
+        "ai": "https://www.cs.utah.edu/research/",
+        "note": "CS faculty"
+      },
+      "WashU": {
+        "all": "https://cse.wustl.edu/faculty-research/faculty.html",
+        "ai": "https://cse.wustl.edu/research/index.html",
+        "note": "CSE faculty"
+      },
+      "NCSU": {
+        "all": "https://www.csc.ncsu.edu/people/",
+        "ai": "https://www.csc.ncsu.edu/research/",
+        "note": "CSC people"
+      },
+      "Notre Dame": {
+        "all": "https://cse.nd.edu/faculty/",
+        "ai": "https://cse.nd.edu/research/",
+        "note": "CSE faculty"
+      },
+      "Rochester": {
+        "all": "https://www.cs.rochester.edu/people/faculty/",
+        "ai": "https://www.cs.rochester.edu/research/",
+        "note": "CS faculty"
+      },
+      "UFlorida": {
+        "all": "https://www.cise.ufl.edu/people/faculty/",
+        "ai": "https://www.cise.ufl.edu/research/",
+        "note": "CISE faculty"
+      },
+      "BU": {
+        "all": "https://www.bu.edu/cs/people/faculty/",
+        "ai": "https://www.bu.edu/cs/research/",
+        "note": "CS faculty"
+      },
+      "IU": {
+        "all": "https://cs.indiana.edu/people/faculty/",
+        "ai": "https://cs.indiana.edu/research/",
+        "note": "Luddy CS faculty"
+      },
+      "Iowa State": {
+        "all": "https://www.cs.iastate.edu/people/faculty",
+        "ai": "https://www.cs.iastate.edu/research",
+        "note": "CS faculty"
+      },
+      "Oregon State": {
+        "all": "https://eecs.oregonstate.edu/people/faculty",
+        "ai": "https://eecs.oregonstate.edu/research",
+        "note": "EECS faculty"
+      },
+      "UCSC": {
+        "all": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/people/",
+        "ai": "https://engineering.ucsc.edu/research/",
+        "note": "CSE people"
+      },
+      "UCR": {
+        "all": "https://www1.cs.ucr.edu/people/faculty",
+        "ai": "https://www1.cs.ucr.edu/research",
+        "note": "CS faculty"
+      },
+      "UIC": {
+        "all": "https://cs.uic.edu/people/faculty/",
+        "ai": "https://cs.uic.edu/research/",
+        "note": "UIC CS faculty"
+      },
+      "UCF": {
+        "all": "https://www.cs.ucf.edu/people/faculty/",
+        "ai": "https://www.cs.ucf.edu/research/",
+        "note": "CS faculty"
+      },
+      "Buffalo": {
+        "all": "https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html",
+        "ai": "https://engineering.buffalo.edu/computer-science-engineering/research.html",
+        "note": "CSE faculty"
+      },
+      "MSU": {
+        "all": "https://www.cse.msu.edu/People/Faculty/",
+        "ai": "https://www.cse.msu.edu/Research/",
+        "note": "CSE faculty"
+      },
+      "Pitt": {
+        "all": "https://www.cs.pitt.edu/people/faculty",
+        "ai": "https://www.cs.pitt.edu/research",
+        "note": "CS faculty"
+      },
+      "UArizona": {
+        "all": "https://www.cs.arizona.edu/people/faculty",
+        "ai": "https://www.cs.arizona.edu/research",
+        "note": "CS faculty"
+      },
+      "GMU": {
+        "all": "https://cs.gmu.edu/people/faculty/",
+        "ai": "https://cs.gmu.edu/research/",
+        "note": "CS faculty"
+      },
+      "UT Dallas": {
+        "all": "https://cs.utdallas.edu/people/faculty/",
+        "ai": "https://cs.utdallas.edu/research/",
+        "note": "CS faculty"
+      },
+      "Tufts": {
+        "all": "https://engineering.tufts.edu/cs/people/faculty",
+        "ai": "https://engineering.tufts.edu/cs/research",
+        "note": "CS faculty"
+      },
+      "RPI": {
+        "all": "https://science.rpi.edu/computer-science/faculty",
+        "ai": "https://science.rpi.edu/computer-science/research",
+        "note": "CS faculty"
+      },
+      "Case Western": {
+        "all": "https://engineering.case.edu/computer-and-data-sciences/people",
+        "ai": "https://engineering.case.edu/computer-and-data-sciences/research",
+        "note": "CDS people"
+      },
+      "UMBC": {
+        "all": "https://www.csee.umbc.edu/people/faculty/",
+        "ai": "https://www.csee.umbc.edu/research/",
+        "note": "CSEE faculty"
+      },
+      "Stevens": {
+        "all": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science/faculty",
+        "ai": "https://www.stevens.edu/school-of-engineering-and-science/departments/computer-science",
+        "note": "CS faculty"
+      },
+      "UDelaware": {
+        "all": "https://www.cis.udel.edu/people/faculty/",
+        "ai": "https://www.cis.udel.edu/research/",
+        "note": "CIS faculty"
+      },
+      "UNebraska": {
+        "all": "https://computing.unl.edu/faculty/",
+        "ai": "https://computing.unl.edu/research/",
+        "note": "Computing faculty"
+      },
+      "FSU": {
+        "all": "https://www.cs.fsu.edu/department/faculty/",
+        "ai": "https://www.cs.fsu.edu/research/",
+        "note": "CS faculty"
+      },
+      "Syracuse": {
+        "all": "https://ecs.syracuse.edu/faculty-staff",
+        "ai": "https://ecs.syracuse.edu/academics/computer-science",
+        "note": "ECS faculty/staff"
+      },
+      "WSU": {
+        "all": "https://school.eecs.wsu.edu/people/faculty/",
+        "ai": "https://school.eecs.wsu.edu/research/",
+        "note": "EECS faculty"
+      },
+      "Clemson": {
+        "all": "https://www.clemson.edu/cecas/departments/computing/people/faculty.html",
+        "ai": "https://www.clemson.edu/cecas/departments/computing/research/",
+        "note": "Computing faculty"
+      },
+      "Drexel": {
+        "all": "https://drexel.edu/cci/about/directory/",
+        "ai": "https://drexel.edu/cci/research/",
+        "note": "CCI directory"
+      },
+      "UConn": {
+        "all": "https://www.cse.uconn.edu/people/faculty/",
+        "ai": "https://www.cse.uconn.edu/research/",
+        "note": "CSE faculty"
+      },
+      "TTIC": {
+        "all": "https://www.ttic.edu/faculty/",
+        "ai": "https://www.ttic.edu/research/",
+        "note": "TTIC faculty"
+      },
+      "UNC Charlotte": {
+        "all": "https://cci.charlotte.edu/directory/",
+        "ai": "https://cci.charlotte.edu/research/",
+        "note": "CCI directory"
+      },
+      "UT Arlington": {
+        "all": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/faculty",
+        "ai": "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse/research",
+        "note": "CSE faculty"
+      },
+      "UIowa": {
+        "all": "https://cs.uiowa.edu/people/faculty",
+        "ai": "https://cs.uiowa.edu/research",
+        "note": "CS faculty"
+      },
+      "Georgetown": {
+        "all": "https://cs.georgetown.edu/people/faculty/",
+        "ai": "https://cs.georgetown.edu/research/",
+        "note": "CS faculty"
+      },
+      "GWU": {
+        "all": "https://www.cs.seas.gwu.edu/faculty",
+        "ai": "https://www.cs.seas.gwu.edu/research",
+        "note": "CS faculty"
+      },
+      "Binghamton": {
+        "all": "https://www.binghamton.edu/computer-science/people/index.html",
+        "ai": "https://www.binghamton.edu/computer-science/research/index.html",
+        "note": "CS people"
+      },
+      "NJIT": {
+        "all": "https://computing.njit.edu/people",
+        "ai": "https://computing.njit.edu/research",
+        "note": "Computing people"
+      },
+      "WPI": {
+        "all": "https://www.wpi.edu/academics/departments/computer-science/faculty-staff",
+        "ai": "https://www.wpi.edu/academics/departments/computer-science/research",
+        "note": "CS faculty/staff"
+      },
+      "UTK": {
+        "all": "https://www.eecs.utk.edu/people/",
+        "ai": "https://www.eecs.utk.edu/research/",
+        "note": "EECS people"
+      },
+      "Emory": {
+        "all": "https://www.cs.emory.edu/people/faculty/",
+        "ai": "https://www.cs.emory.edu/research/",
+        "note": "CS faculty"
+      },
+      "UGA": {
+        "all": "https://www.cs.uga.edu/directory/faculty",
+        "ai": "https://www.cs.uga.edu/research",
+        "note": "CS faculty"
+      },
+      "Temple": {
+        "all": "https://cis.temple.edu/people/faculty",
+        "ai": "https://cis.temple.edu/research",
+        "note": "CIS faculty"
+      },
+      "Lehigh": {
+        "all": "https://engineering.lehigh.edu/cse/faculty",
+        "ai": "https://engineering.lehigh.edu/cse/research",
+        "note": "CSE faculty"
+      },
+      "IIT": {
+        "all": "https://www.iit.edu/computer-science/faculty",
+        "ai": "https://www.iit.edu/computer-science/research",
+        "note": "CS faculty"
+      },
+      "Auburn": {
+        "all": "https://www.eng.auburn.edu/comp/faculty/",
+        "ai": "https://www.eng.auburn.edu/comp/research/",
+        "note": "CSSE faculty"
+      },
+      "UH": {
+        "all": "https://www.cs.uh.edu/people/faculty/",
+        "ai": "https://www.cs.uh.edu/research/",
+        "note": "CS faculty"
+      },
+      "Colorado Mines": {
+        "all": "https://cs.mines.edu/people/",
+        "ai": "https://cs.mines.edu/research/",
+        "note": "CS people"
+      }
+    },
+    "highlights": [
+      {
+        "school": "HKU",
+        "name": "Yi Ma",
+        "title": "Chair of AI / Director of CDS",
+        "areas": "AI, representation learning, data science",
+        "home": "https://people.eecs.berkeley.edu/~yima/",
+        "profile": "https://ai.hku.hk/people/academic-staff"
+      },
+      {
+        "school": "HKU",
+        "name": "Ping Luo",
+        "title": "Professor",
+        "areas": "Computer vision, generative AI, multimodal learning",
+        "home": "http://luoping.me/",
+        "profile": "https://ai.hku.hk/people/academic-staff"
+      },
+      {
+        "school": "HKU",
+        "name": "Reynold Cheng",
+        "title": "Professor / Division Head (AI & DS)",
+        "areas": "Data science, big data, databases",
+        "home": "https://www.cs.hku.hk/~ckcheng/",
+        "profile": "https://ai.hku.hk/people/academic-staff"
+      },
+      {
+        "school": "HKU",
+        "name": "Chao Huang",
+        "title": "Assistant Professor",
+        "areas": "Recommender systems, graph ML, data mining",
+        "home": "https://sites.google.com/view/chaoh",
+        "profile": "https://ai.hku.hk/people/academic-staff"
+      },
+      {
+        "school": "HKU",
+        "name": "Difan Zou",
+        "title": "Assistant Professor",
+        "areas": "ML theory, optimization, deep learning",
+        "home": "https://difanzou.github.io/",
+        "profile": "https://ai.hku.hk/people/academic-staff"
+      },
+      {
+        "school": "CUHK",
+        "name": "Irwin King",
+        "title": "Professor",
+        "areas": "Machine learning, social computing, AI",
+        "home": "https://www.cse.cuhk.edu.hk/~king/",
+        "profile": "https://www.cse.cuhk.edu.hk/people/faculty/"
+      },
+      {
+        "school": "CUHK",
+        "name": "Yu Cheng",
+        "title": "Professor",
+        "areas": "Machine learning, trustworthy AI, NLP",
+        "home": "https://www.cse.cuhk.edu.hk/~ycheng/",
+        "profile": "https://www.cse.cuhk.edu.hk/people/faculty/"
+      },
+      {
+        "school": "CUHK",
+        "name": "Qi Dou",
+        "title": "Associate Professor",
+        "areas": "Medical AI, computer vision, robotics",
+        "home": "https://www.cse.cuhk.edu.hk/~qdou/",
+        "profile": "https://www.cse.cuhk.edu.hk/people/faculty/"
+      },
+      {
+        "school": "CUHK",
+        "name": "Weiyang Liu",
+        "title": "Assistant Professor",
+        "areas": "Generative AI, foundation models, LLMs, CV",
+        "home": "https://wyliu.com/",
+        "profile": "https://www.cse.cuhk.edu.hk/people/faculty/"
+      },
+      {
+        "school": "CUHK",
+        "name": "Pheng Ann Heng",
+        "title": "Professor",
+        "areas": "Medical imaging, VR/AR, AI for medicine",
+        "home": "https://www.cse.cuhk.edu.hk/~pheng/",
+        "profile": "https://www.cse.cuhk.edu.hk/people/faculty/"
+      },
+      {
+        "school": "CUHK",
+        "name": "Sinno Jialin Pan",
+        "title": "Professor",
+        "areas": "Transfer learning, machine learning",
+        "home": "https://www.cse.cuhk.edu.hk/~sinnopan/",
+        "profile": "https://www.cse.cuhk.edu.hk/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Song Guo",
+        "title": "Chair Professor",
+        "areas": "AI systems, edge AI, networking",
+        "home": "https://cse.hkust.edu.hk/~songguo/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Jiaya Jia",
+        "title": "Chair Professor",
+        "areas": "Computer vision, generative AI, graphics",
+        "home": "https://jiaya.me/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "James Kwok",
+        "title": "Professor",
+        "areas": "Machine learning, kernel methods, deep learning",
+        "home": "https://cse.hkust.edu.hk/~jamesk/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Qifeng Chen",
+        "title": "Associate Professor",
+        "areas": "Computer vision, computational photography, AI",
+        "home": "https://cqf.io/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Yangqiu Song",
+        "title": "Associate Professor",
+        "areas": "Knowledge graph, NLP, data mining",
+        "home": "https://www.cse.ust.hk/~yqsong/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Junxian He",
+        "title": "Assistant Professor",
+        "areas": "NLP, LLMs, AI",
+        "home": "https://jxhe.github.io/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Hao Chen",
+        "title": "Assistant Professor",
+        "areas": "Medical image analysis, computer vision",
+        "home": "https://cse.hkust.edu.hk/~jhc/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "HKUST",
+        "name": "Nevin Zhang",
+        "title": "Professor",
+        "areas": "Bayesian networks, probabilistic graphical models",
+        "home": "https://cse.hkust.edu.hk/~lzhang/",
+        "profile": "https://cse.hkust.edu.hk/admin/people/faculty/"
+      },
+      {
+        "school": "NUS",
+        "name": "David Hsu",
+        "title": "Professor",
+        "areas": "Robotics, AI planning, decision making",
+        "home": "https://www.comp.nus.edu.sg/~dyhsu/",
+        "profile": "https://www.comp.nus.edu.sg/cs/research/ai/people/"
+      },
+      {
+        "school": "NUS",
+        "name": "Wee Sun Lee",
+        "title": "Professor",
+        "areas": "Machine learning, AI",
+        "home": "https://www.comp.nus.edu.sg/~leews/",
+        "profile": "https://www.comp.nus.edu.sg/cs/research/ai/people/"
+      },
+      {
+        "school": "NUS",
+        "name": "Min-Yen Kan",
+        "title": "Associate Professor",
+        "areas": "NLP, information retrieval, digital libraries",
+        "home": "https://www.comp.nus.edu.sg/~kanmy/",
+        "profile": "https://www.comp.nus.edu.sg/cs/research/ai/people/"
+      },
+      {
+        "school": "NUS",
+        "name": "Hwee Tou Ng",
+        "title": "Professor",
+        "areas": "NLP, machine translation",
+        "home": "https://www.comp.nus.edu.sg/~nght/",
+        "profile": "https://www.comp.nus.edu.sg/cs/research/ai/people/"
+      },
+      {
+        "school": "NUS",
+        "name": "Angela Yao",
+        "title": "Associate Professor",
+        "areas": "Computer vision, human activity understanding",
+        "home": "https://www.comp.nus.edu.sg/~ayao/",
+        "profile": "https://www.comp.nus.edu.sg/about/faculty/"
+      },
+      {
+        "school": "NTU",
+        "name": "Bo An",
+        "title": "Professor / Head of AI Division",
+        "areas": "Multi-agent systems, AI, decision making",
+        "home": "https://personal.ntu.edu.sg/boan/",
+        "profile": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty"
+      },
+      {
+        "school": "NTU",
+        "name": "Erik Cambria",
+        "title": "Professor",
+        "areas": "Sentiment analysis, NLP, affective computing",
+        "home": "https://www.sentic.net/",
+        "profile": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty"
+      },
+      {
+        "school": "NTU",
+        "name": "Guan Cuntai",
+        "title": "President's Chair in AI",
+        "areas": "Brain-computer interface, AI for health",
+        "home": "https://dr.ntu.edu.sg/entities/person/Cuntai-Guan",
+        "profile": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty"
+      },
+      {
+        "school": "NTU",
+        "name": "Zhang Jie",
+        "title": "Professor",
+        "areas": "Computational intelligence, trust, recommender systems",
+        "home": "https://personal.ntu.edu.sg/zhangj/",
+        "profile": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty"
+      },
+      {
+        "school": "NTU",
+        "name": "Han Yu",
+        "title": "Associate Professor",
+        "areas": "Federated learning, trustworthy AI, HCI",
+        "home": "https://personal.ntu.edu.sg/han.yu/",
+        "profile": "https://www.ntu.edu.sg/computing/ai-at-ntu/ai-faculty"
+      },
+      {
+        "school": "SMU",
+        "name": "Pradeep Varakantham",
+        "title": "Professor",
+        "areas": "AI, sequential decision making, human-AI collaboration",
+        "home": "https://faculty.smu.edu.sg/profile/pradeep-varakantham-1646",
+        "profile": "https://computing.smu.edu.sg/faculty"
+      },
+      {
+        "school": "SUTD",
+        "name": "ISTD Faculty",
+        "title": "Pillar faculty list",
+        "areas": "AI, data science, interactive design, security",
+        "home": "https://istd.sutd.edu.sg/people/faculty",
+        "profile": "https://istd.sutd.edu.sg/people/faculty"
+      },
+      {
+        "school": "MIT",
+        "name": "EECS Faculty AI+D",
+        "title": "Faculty directory (AI+D)",
+        "areas": "AI + Decision-making track faculty list",
+        "home": "https://www.eecs.mit.edu/role/faculty-aid/",
+        "profile": "https://www.eecs.mit.edu/role/faculty/"
+      },
+      {
+        "school": "MIT",
+        "name": "CSAIL People",
+        "title": "Lab directory",
+        "areas": "AI, systems, theory across CSAIL",
+        "home": "https://www.csail.mit.edu/people",
+        "profile": "https://www.csail.mit.edu/people"
+      },
+      {
+        "school": "Stanford",
+        "name": "Chelsea Finn",
+        "title": "Assistant Professor",
+        "areas": "Robot learning, meta-learning, RL",
+        "home": "https://ai.stanford.edu/~cbfinn/",
+        "profile": "https://www.cs.stanford.edu/people/faculty"
+      },
+      {
+        "school": "Stanford",
+        "name": "Fei-Fei Li",
+        "title": "Professor",
+        "areas": "Computer vision, AI, HAI",
+        "home": "https://profiles.stanford.edu/fei-fei-li",
+        "profile": "https://www.cs.stanford.edu/people/faculty"
+      },
+      {
+        "school": "Stanford",
+        "name": "Percy Liang",
+        "title": "Associate Professor",
+        "areas": "NLP, foundation models, trustworthy ML",
+        "home": "https://cs.stanford.edu/~pliang/",
+        "profile": "https://www.cs.stanford.edu/people/faculty"
+      },
+      {
+        "school": "Stanford",
+        "name": "Chris Ré",
+        "title": "Associate Professor",
+        "areas": "Machine learning systems, data-centric AI",
+        "home": "https://cs.stanford.edu/~chrismre/",
+        "profile": "https://www.cs.stanford.edu/people/faculty"
+      },
+      {
+        "school": "CMU",
+        "name": "Machine Learning Department Faculty",
+        "title": "MLD faculty list",
+        "areas": "Core ML, deep learning, theory",
+        "home": "https://www.ml.cmu.edu/people/faculty.html",
+        "profile": "https://csd.cs.cmu.edu/people/faculty"
+      },
+      {
+        "school": "CMU",
+        "name": "RI Faculty",
+        "title": "Robotics Institute",
+        "areas": "Robotics, vision, autonomy",
+        "home": "https://www.ri.cmu.edu/ri-faculty/",
+        "profile": "https://www.ri.cmu.edu/ri-faculty/"
+      },
+      {
+        "school": "UC Berkeley",
+        "name": "BAIR Faculty",
+        "title": "Berkeley AI Research",
+        "areas": "AI, RL, vision, NLP, robotics",
+        "home": "https://bair.berkeley.edu/people.html",
+        "profile": "https://www2.eecs.berkeley.edu/Research/Areas/AI/"
+      },
+      {
+        "school": "UC Berkeley",
+        "name": "Pieter Abbeel",
+        "title": "Professor",
+        "areas": "Deep RL, robotics, generative models",
+        "home": "https://people.eecs.berkeley.edu/~pabbeel/",
+        "profile": "https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html"
+      },
+      {
+        "school": "UC Berkeley",
+        "name": "Jitendra Malik",
+        "title": "Professor",
+        "areas": "Computer vision",
+        "home": "https://people.eecs.berkeley.edu/~malik/",
+        "profile": "https://www2.eecs.berkeley.edu/Faculty/Homepages/malik.html"
+      },
+      {
+        "school": "UIUC",
+        "name": "Siebel Faculty",
+        "title": "Faculty directory",
+        "areas": "AI, systems, theory, HCI",
+        "home": "https://siebelschool.illinois.edu/about/people/faculty",
+        "profile": "https://siebelschool.illinois.edu/about/people/faculty"
+      },
+      {
+        "school": "Princeton",
+        "name": "CS Faculty",
+        "title": "Faculty directory",
+        "areas": "ML, theory, systems, vision",
+        "home": "https://www.cs.princeton.edu/people/faculty",
+        "profile": "https://www.cs.princeton.edu/people/faculty"
+      },
+      {
+        "school": "Cornell",
+        "name": "CS Faculty",
+        "title": "Faculty directory",
+        "areas": "AI, NLP, vision, systems",
+        "home": "https://www.cs.cornell.edu/people/faculty",
+        "profile": "https://www.cs.cornell.edu/people/faculty"
+      },
+      {
+        "school": "Georgia Tech",
+        "name": "ML@GT Faculty",
+        "title": "Machine Learning Center",
+        "areas": "Machine learning across GT",
+        "home": "https://ml.gatech.edu/people",
+        "profile": "https://www.cc.gatech.edu/people/faculty"
+      },
+      {
+        "school": "UW",
+        "name": "CSE Faculty",
+        "title": "Faculty directory",
+        "areas": "NLP, vision, ML, systems",
+        "home": "https://www.cs.washington.edu/people/faculty",
+        "profile": "https://www.cs.washington.edu/people/faculty"
+      },
+      {
+        "school": "UT Austin",
+        "name": "CS Faculty",
+        "title": "Faculty directory",
+        "areas": "AI, robotics, NLP, vision",
+        "home": "https://www.cs.utexas.edu/people/faculty-researchers",
+        "profile": "https://www.cs.utexas.edu/people/faculty-researchers"
+      },
+      {
+        "school": "UMich",
+        "name": "CSE Faculty",
+        "title": "Faculty directory",
+        "areas": "AI, vision, NLP, robotics",
+        "home": "https://cse.engin.umich.edu/people/faculty/",
+        "profile": "https://cse.engin.umich.edu/people/faculty/"
+      },
+      {
+        "school": "UCLA",
+        "name": "CS Faculty",
+        "title": "Faculty directory",
+        "areas": "AI, vision, NLP, ML",
+        "home": "https://www.cs.ucla.edu/people/faculty/",
+        "profile": "https://www.cs.ucla.edu/people/faculty/"
+      },
+      {
+        "school": "Columbia",
+        "name": "CS Faculty",
+        "title": "Faculty directory",
+        "areas": "ML, NLP, vision, robotics",
+        "home": "https://www.cs.columbia.edu/people/faculty/",
+        "profile": "https://www.cs.columbia.edu/people/faculty/"
+      },
+      {
+        "school": "UCSD",
+        "name": "CSE Faculty",
+        "title": "Faculty directory",
+        "areas": "AI, systems, theory, graphics",
+        "home": "https://cse.ucsd.edu/people/faculty",
+        "profile": "https://cse.ucsd.edu/people/faculty"
+      }
+    ],
+    "disclaimer": "重点老师为 AI/ML/CV/NLP/机器人等相关代表，并非全系名单。完整名单请点各校 Faculty Directory。主页链接可能变更，以官方目录为准。"
+  }
 };

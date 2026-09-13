@@ -85,6 +85,7 @@ button, select, input { font: inherit; }
 .tab.active-sg { background: var(--sg); color: #fff; border-color: var(--sg); }
 .tab.active-phd { background: var(--phd); color: #fff; border-color: var(--phd); }
 .tab.active-master { background: var(--master); color: #fff; border-color: var(--master); }
+.tab.active-faculty { background: #0f766e; color: #fff; border-color: #0f766e; }
 
 .panel {
   background: var(--surface);
@@ -189,6 +190,18 @@ input, select {
   font-size: 0.82rem;
   line-height: 1.5;
 }
+
+.faculty-list { display: flex; flex-direction: column; gap: 8px; }
+.faculty-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+}
+.faculty-card.compact { padding: 8px 10px; }
+.faculty-name { font-weight: 600; }
+.faculty-areas { margin-top: 4px; font-size: 0.9rem; line-height: 1.45; }
+.meta { color: var(--muted); font-size: 0.82rem; }
 
 .empty { padding: 24px; color: var(--muted); text-align: center; }
 
