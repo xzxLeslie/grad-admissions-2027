@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2027 港美新 CS/EE 硕博申请导航</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <h1 id="title">2027 港美新 CS/EE 硕博申请导航</h1>
+      <p id="subtitle"></p>
+      <p style="margin-top:10px;font-size:0.85rem;color:var(--muted)">
+        纯本地网页：把整个 <code>grad-admissions-2027</code> 文件夹压缩即可分享；双击 <code>index.html</code> 打开。
+      </p>
+    </header>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="callout" id="hkpfs"></div>
+    <div class="callout callout-sg" id="singa"></div>
+
+    <div class="tabs" id="regionTabs">
+      <button class="tab active-hk" data-region="HK">香港（含内地分校）</button>
+      <button class="tab" data-region="SG">新加坡</button>
+      <button class="tab" data-region="US">美国（约前100）</button>
+    </div>
+
+    <div class="tabs" id="degreeTabs">
+      <button class="tab active-phd" data-degree="PhD">PhD / 研究型博士</button>
+      <button class="tab" data-degree="Master">硕士（MPhil / MS / MEng / MSc）</button>
+    </div>
+
+    <div class="panel">
+      <div class="filters">
+        <div>
+          <label for="q">搜索学校 / 方向 / 备注</label>
+          <input id="q" type="search" placeholder="例如：Stanford、HKPFS、深圳、funding…" />
+        </div>
+        <div id="campusFilterWrap">
+          <label for="campus">校区类型</label>
+          <select id="campus">
+            <option value="All">全部</option>
+            <option value="main">香港本校</option>
+            <option value="mainland">内地分校/合作校区</option>
+          </select>
+        </div>
+        <div>
+          <label for="funding">Funding</label>
+          <select id="funding">
+            <option value="All">全部</option>
+            <option value="full">典型全奖</option>
+            <option value="partial">部分资助</option>
+            <option value="self">自费为主</option>
+          </select>
+        </div>
+        <div>
+          <label for="sort">排序</label>
+          <select id="sort">
+            <option value="rank">排名档位 / 学校</option>
+            <option value="deadline">截止日期</option>
+            <option value="name">校名</option>
+          </select>
+        </div>
+      </div>
+      <p style="margin:10px 0 0;color:var(--muted);font-size:0.85rem" id="count"></p>
+    </div>
+
+    <div class="layout">
+      <div>
+        <div class="list" id="list"></div>
+      </div>
+      <aside class="panel detail region-hk" id="detail">
+        <div class="empty">请选择左侧项目查看详情</div>
+      </aside>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
